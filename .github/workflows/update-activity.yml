@@ -89,6 +89,40 @@ jobs:
               return `${i + 1}. ${body} · ${it.day}`;
             });
             replaceSection('activity', lines.length ? lines.join('\n') : '_No recent public activity yet._');
+            // ---------- Pinned repositories (Featured Projects) ----------
+            try {
+              const pinRes = await github.graphql(
+                `query($login: String!) {
+                  user(login: $login) {
+                    pinnedItems(first: 6, types: REPOSITORY) {
+                      nodes { ... on Repository { name url description stargazerCount isFork primaryLanguage { name } } }
+                    }
+                  }
+                }`,
+                { login: user }
+              );
+              const pins = pinRes.user.pinnedItems.nodes.filter(Boolean);
+              if (pins.length) {
+                const blocks = pins.map((r) => {
+                  const desc = r.description ? r.description.replace(/\s+/g, ' ').trim() : 'No description yet.';
+                  const meta = [
+                    r.primaryLanguage && r.primaryLanguage.name,
+                    r.stargazerCount ? `⭐ ${r.stargazerCount}` : null,
+                    r.isFork ? 'Fork' : null,
+                  ].filter(Boolean).join(' · ');
+                  return `### 📌 [${r.name}](${r.url})\n\n${desc}${meta ? `\n\n<sub>${meta}</sub>` : ''}`;
+                });
+                replaceSection('projects', blocks.join('\n\n'));
+                fs.mkdirSync('assets', { recursive: true });
+                fs.writeFileSync('assets/pinned.json', JSON.stringify(pins.map((r) => ({
+                  name: r.name, url: r.url, description: r.description || '',
+                  language: r.primaryLanguage ? r.primaryLanguage.name : '', stars: r.stargazerCount, fork: r.isFork,
+                })), null, 2));
+              }
+            } catch (err) {
+              core.warning(`Could not read pinned repositories: ${err.message}`);
+            }
+
             fs.writeFileSync(file, md);
 
             // ---------- 2) Streak card, computed from GitHub's own contribution calendar ----------
