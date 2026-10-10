@@ -89,7 +89,7 @@
     .hero {
       min-height: 78vh;
       display: grid;
-      grid-template-columns: 1.15fr .85fr;
+      grid-template-columns: 1fr;
       gap: 42px;
       align-items: center;
       padding: 48px 0 72px
@@ -141,35 +141,6 @@
     .btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 12px 35px rgba(34, 211, 238, .14)
-    }
-
-    .portrait-shell {
-      position: relative;
-      max-width: 390px;
-      margin: auto;
-      perspective: 1000px
-    }
-
-    .portrait-shell:before {
-      content: "";
-      position: absolute;
-      inset: 7%;
-      border-radius: 50%;
-      background: linear-gradient(120deg, #06b6d4, #8b5cf6);
-      filter: blur(48px);
-      opacity: .32;
-      animation: pulse 4s ease-in-out infinite
-    }
-
-    .portrait {
-      position: relative;
-      width: 100%;
-      display: block;
-      border-radius: 28px;
-      border: 1px solid rgba(103, 232, 249, .34);
-      box-shadow: 0 30px 90px #0009;
-      transform: rotateY(-5deg) rotateX(2deg);
-      animation: float 6s ease-in-out infinite
     }
 
     section {
@@ -424,10 +395,6 @@
         justify-content: center
       }
 
-      .portrait-shell {
-        max-width: 300px
-      }
-
       .grid {
         grid-template-columns: 1fr
       }
@@ -480,8 +447,6 @@
         <div class="actions"><a class="btn" href="https://github.com/KinjalPramanik06" target="_blank"
             rel="noreferrer">GitHub profile ↗</a><a class="btn" href="#projects">See my projects ↓</a></div>
       </div>
-      <div class="portrait-shell"><img class="portrait" src="assets/kinjal-dotted-portrait.png"
-          alt="Kinjal Pramanik in a neon dotted portrait"></div>
     </section>
 
     <section>
@@ -672,7 +637,7 @@
           case 'PullRequestEvent': return ['🔀', (p.action === 'closed' && p.pull_request && p.pull_request.merged ? 'Merged' : p.action.charAt(0).toUpperCase() + p.action.slice(1)) + ' PR in'];
           case 'IssuesEvent': return ['❗', p.action.charAt(0).toUpperCase() + p.action.slice(1) + ' an issue in'];
           case 'IssueCommentEvent': return ['💬', 'Commented in'];
-          case 'CreateEvent': return ['✨', 'Created ' + (p.ref_type || 'repository') + ' in'];
+          case 'CreateEvent': return p.ref_type === 'repository' ? ['✨', 'Created repository'] : null;
           case 'WatchEvent': return ['⭐', 'Starred'];
           case 'ForkEvent': return ['🍴', 'Forked'];
           default: return null;
