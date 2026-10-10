@@ -45,12 +45,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 My pinned repositories on GitHub, kept up to date automatically.
 
 <!--START_SECTION:projects-->
-### 📌 [Health](https://github.com/KinjalPramanik06/Health)
-
-Health Guard Pro
-
-<sub>JavaScript · ⭐ 3</sub>
-
 ### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
 
 No description yet.
