@@ -313,63 +313,31 @@
       white-space: nowrap
     }
 
-    .tool:hover {
-      color: #fff;
-      filter: brightness(1.15)
+    .icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px
     }
 
-    .tool {
-      padding: 7px 12px;
-      border-radius: 8px;
-      font-size: .88rem;
-      font-weight: 600;
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, .12)
+    .icons a {
+      display: grid;
+      place-items: center;
+      width: 52px;
+      height: 52px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #0b1424;
+      transition: transform .2s, border-color .2s
     }
 
-    .c-c,
-    .c-cpp {
-      background: #00599c
+    .icons a:hover {
+      transform: translateY(-3px);
+      border-color: rgba(167, 139, 250, .7)
     }
 
-    .c-java {
-      background: #b8700a
-    }
-
-    .c-html {
-      background: #e34f26
-    }
-
-    .c-css {
-      background: #1572b6
-    }
-
-    .c-ts {
-      background: #3178c6
-    }
-
-    .c-md {
-      background: #1f2937
-    }
-
-    .c-mongo {
-      background: #2f7d32
-    }
-
-    .c-pages {
-      background: #2a3547
-    }
-
-    .c-git {
-      background: #f05032
-    }
-
-    .c-gh {
-      background: #24292f
-    }
-
-    .c-vs {
-      background: #007acc
+    .icons img {
+      width: 30px;
+      height: 30px
     }
 
     .counters {
@@ -618,9 +586,6 @@
           doesn't measure experience or skill.</p>
       </div>
 
-      <div class="panel stat-row" style="margin-top:18px"><img src="https://ghchart.rshah.org/67e8f9/KinjalPramanik06"
-          alt="Contribution calendar" loading="lazy"></div>
-
       <h3 class="sub-title">⚡ Recent GitHub activity</h3>
       <ol class="activity" id="activity-list">
         <li>Loading recent activity…</li>
@@ -630,23 +595,37 @@
     <section id="tools">
       <h2 class="section-title">🛠️ My favorite <span class="gradient">tools</span></h2>
       <p class="sub">What I reach for when I build.</p>
-      <h3 class="sub-title">👨‍💻 Programming and markup languages</h3>
-      <div class="chips"><a class="tool c-c" href="https://en.cppreference.com/w/c" target="_blank"
-          rel="noreferrer">C</a><a class="tool c-cpp" href="https://isocpp.org/" target="_blank"
-          rel="noreferrer">C++</a><a class="tool c-java" href="https://www.java.com/" target="_blank"
-          rel="noreferrer">Java</a><a class="tool c-html" href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          target="_blank" rel="noreferrer">HTML</a><a class="tool c-css"
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">CSS</a><a
-          class="tool c-ts" href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">TypeScript</a><a
-          class="tool c-md" href="https://www.markdownguide.org/" target="_blank" rel="noreferrer">Markdown</a></div>
-      <h3 class="sub-title">🗄️ Databases and hosting</h3>
-      <div class="chips"><a class="tool c-mongo" href="https://www.mongodb.com/" target="_blank"
-          rel="noreferrer">MongoDB</a><a class="tool c-pages" href="https://pages.github.com/" target="_blank"
-          rel="noreferrer">GitHub Pages</a></div>
-      <h3 class="sub-title">💻 Software and tools</h3>
-      <div class="chips"><a class="tool c-git" href="https://git-scm.com/" target="_blank" rel="noreferrer">Git</a><a
-          class="tool c-gh" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a><a class="tool c-vs"
-          href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">VS Code</a></div>
+      <h3 class="sub-title">👨‍💻 Programming and Markup Languages</h3>
+      <div class="icons"><a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer" title="C"
+          aria-label="C"><img src="https://skillicons.dev/icons?i=c&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://isocpp.org/" target="_blank" rel="noreferrer" title="C++"
+          aria-label="C++"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://www.java.com/" target="_blank" rel="noreferrer" title="Java"
+          aria-label="Java"><img src="https://skillicons.dev/icons?i=java&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+          rel="noreferrer" title="HTML" aria-label="HTML"><img src="https://skillicons.dev/icons?i=html&theme=dark"
+            alt="" width="36" height="36" loading="lazy"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="_blank" rel="noreferrer" title="CSS" aria-label="CSS"><img
+            src="https://skillicons.dev/icons?i=css&theme=dark" alt="" width="36" height="36" loading="lazy"></a><a
+          href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" title="TypeScript"
+          aria-label="TypeScript"><img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"
+          title="Markdown" aria-label="Markdown"><img src="https://skillicons.dev/icons?i=md&theme=dark" alt=""
+            width="36" height="36" loading="lazy"></a></div>
+      <h3 class="sub-title">🗄️ Databases and Hosting</h3>
+      <div class="icons"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer" title="MongoDB"
+          aria-label="MongoDB"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" alt="" width="36"
+            height="36" loading="lazy"></a><a href="https://pages.github.com/" target="_blank" rel="noreferrer"
+          title="GitHub Pages" aria-label="GitHub Pages"><img src="https://skillicons.dev/icons?i=github&theme=dark"
+            alt="" width="36" height="36" loading="lazy"></a></div>
+      <h3 class="sub-title">💻 Software and Tools</h3>
+      <div class="icons"><a href="https://git-scm.com/" target="_blank" rel="noreferrer" title="Git"
+          aria-label="Git"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://github.com/" target="_blank" rel="noreferrer" title="GitHub"
+          aria-label="GitHub"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer" title="VS Code"
+          aria-label="VS Code"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="" width="36" height="36"
+            loading="lazy"></a></div>
     </section>
 
     <section id="stats">
