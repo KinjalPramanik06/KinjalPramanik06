@@ -4,7 +4,6 @@
 
 **CSE student · Developer · Builder**
 
-*I turn ideas into working code.*
 
 <a href="https://github.com/KinjalPramanik06"><img src="https://img.shields.io/badge/GitHub-KinjalPramanik06-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <img src="https://img.shields.io/badge/Focus-DSA%20%7C%20Web%20%7C%20AI%2FML-06b6d4?style=for-the-badge" alt="Focus"/>
@@ -129,6 +128,6 @@ All basic C Programming I have done during my college.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building. Keep shipping.*
+*Keep learning. Keep building.*
 
 </div>
