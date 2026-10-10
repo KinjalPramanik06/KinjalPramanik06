@@ -1,4 +1,4 @@
-name: Update recent activity
+name: Update activity and streak
 
 on:
   schedule:
@@ -12,12 +12,12 @@ permissions:
   contents: write
 
 jobs:
-  update-activity:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build activity and contribution sections
+      - name: Build recent activity and streak card
         uses: actions/github-script@v7
         with:
           script: |
@@ -28,7 +28,7 @@ jobs:
 
             const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
             const repoLink = (name) => `[${name}](https://github.com/${name})`;
-            const dayOf = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+            const shortDay = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
 
             function replaceSection(name, body) {
               const start = `<!--START_SECTION:${name}-->`;
@@ -38,7 +38,7 @@ jobs:
               md = md.replace(re, () => `${start}\n${body}\n${end}`);
             }
 
-            // 1) Recent activity from public events
+            // ---------- 1) Recent activity ----------
             const { data: events } = await github.rest.activity.listPublicEventsForUser({
               username: user, per_page: 100,
             });
@@ -48,9 +48,8 @@ jobs:
             for (const e of events) {
               const p = e.payload || {};
               const repo = repoLink(e.repo.name);
-              const day = dayOf(e.created_at);
+              const day = shortDay(e.created_at);
               let text = null;
-
               switch (e.type) {
                 case 'PushEvent': {
                   const n = p.size || (p.commits || []).length || 0;
@@ -68,8 +67,7 @@ jobs:
                   break;
                 case 'PullRequestEvent': {
                   const merged = p.pull_request && p.pull_request.merged;
-                  const verb = merged ? 'Merged' : cap(p.action || 'updated');
-                  text = `🔀 ${verb} PR [#${p.number}](${p.pull_request.html_url}) in ${repo}`;
+                  text = `🔀 ${merged ? 'Merged' : cap(p.action || 'updated')} PR [#${p.number}](${p.pull_request.html_url}) in ${repo}`;
                   break;
                 }
                 case 'IssuesEvent':
@@ -84,7 +82,6 @@ jobs:
               }
               if (text) items.push({ kind: 'text', text, day });
             }
-
             const lines = items.slice(0, 6).map((it, i) => {
               const body = it.kind === 'push'
                 ? `⬆️ Pushed ${it.count > 0 ? it.count + ' commit' + (it.count === 1 ? '' : 's') : 'changes'} to ${it.repo}`
@@ -92,36 +89,99 @@ jobs:
               return `${i + 1}. ${body} · ${it.day}`;
             });
             replaceSection('activity', lines.length ? lines.join('\n') : '_No recent public activity yet._');
-
-            // 2) Exact contribution total for the current year (same number GitHub shows)
-            try {
-              const year = new Date().getUTCFullYear();
-              const res = await github.graphql(
-                `query($login: String!, $from: DateTime!, $to: DateTime!) {
-                  user(login: $login) {
-                    contributionsCollection(from: $from, to: $to) {
-                      contributionCalendar { totalContributions }
-                    }
-                  }
-                }`,
-                { login: user, from: `${year}-01-01T00:00:00Z`, to: new Date().toISOString() }
-              );
-              const total = res.user.contributionsCollection.contributionCalendar.totalContributions;
-              replaceSection('contrib', `**${total} contributions in ${year}** · [see full activity](https://github.com/${user})`);
-            } catch (err) {
-              core.warning(`Could not read contribution total: ${err.message}`);
-            }
-
             fs.writeFileSync(file, md);
+
+            // ---------- 2) Streak card, computed from GitHub's own contribution calendar ----------
+            try {
+              const yearsRes = await github.graphql(
+                `query($login: String!) { user(login: $login) { contributionsCollection { contributionYears } } }`,
+                { login: user }
+              );
+              const years = yearsRes.user.contributionsCollection.contributionYears;
+              const now = new Date();
+              const counts = {};
+              for (const y of years) {
+                const from = `${y}-01-01T00:00:00Z`;
+                const to = y === now.getUTCFullYear() ? now.toISOString() : `${y}-12-31T23:59:59Z`;
+                const res = await github.graphql(
+                  `query($login: String!, $from: DateTime!, $to: DateTime!) {
+                    user(login: $login) {
+                      contributionsCollection(from: $from, to: $to) {
+                        contributionCalendar { weeks { contributionDays { date contributionCount } } }
+                      }
+                    }
+                  }`,
+                  { login: user, from, to }
+                );
+                for (const w of res.user.contributionsCollection.contributionCalendar.weeks)
+                  for (const d of w.contributionDays) counts[d.date] = d.contributionCount;
+              }
+
+              const todayStr = now.toISOString().slice(0, 10);
+              const days = Object.keys(counts).filter((d) => d <= todayStr).sort();
+              const total = days.reduce((s, d) => s + counts[d], 0);
+              const first = days.find((d) => counts[d] > 0);
+
+              const fmt = (d) => {
+                const dt = new Date(d + 'T00:00:00Z');
+                const base = dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+                return dt.getUTCFullYear() === now.getUTCFullYear() ? base : `${base}, ${dt.getUTCFullYear()}`;
+              };
+              const range = (a, b) => (a === b ? fmt(a) : `${fmt(a)} - ${fmt(b)}`);
+
+              // longest streak
+              let best = { len: 0, start: null, end: null }, run = { len: 0, start: null, end: null };
+              for (const d of days) {
+                if (counts[d] > 0) {
+                  if (run.len === 0) run = { len: 1, start: d, end: d };
+                  else run = { len: run.len + 1, start: run.start, end: d };
+                  if (run.len > best.len) best = { ...run };
+                } else run = { len: 0, start: null, end: null };
+              }
+
+              // current streak (a quiet today does not break it until the day ends)
+              let i = days.length - 1;
+              if (i >= 0 && counts[days[i]] === 0) i--;
+              let cur = { len: 0, start: null, end: null };
+              while (i >= 0 && counts[days[i]] > 0) {
+                cur = { len: cur.len + 1, start: days[i], end: cur.end || days[i] };
+                i--;
+              }
+
+              const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+              const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="${total} total contributions, ${cur.len} day current streak, ${best.len} day longest streak">
+              <style>text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;text-anchor:middle}.num{font-size:28px;font-weight:700;fill:#E6EDF3}.lbl{font-size:14px;fill:#C9D1D9}.dt{font-size:12px;fill:#94A3B8}.cur{font-size:14px;font-weight:700;fill:#67E8F9}</style>
+              <rect width="495" height="195" rx="4.5" fill="#0D1117"/>
+              <line x1="165" y1="28" x2="165" y2="167" stroke="#30363D" stroke-width="1"/>
+              <line x1="330" y1="28" x2="330" y2="167" stroke="#30363D" stroke-width="1"/>
+              <text class="num" x="82.5" y="86">${esc(total)}</text>
+              <text class="lbl" x="82.5" y="114">Total Contributions</text>
+              <text class="dt" x="82.5" y="138">${first ? esc(fmt(first)) + ' - Present' : '-'}</text>
+              <circle cx="247.5" cy="75" r="40" fill="none" stroke="#06B6D4" stroke-width="5"/>
+              <text class="num" x="247.5" y="86">${esc(cur.len)}</text>
+              <g transform="translate(247.5,35)"><circle r="12" fill="#0D1117"/><path d="M0 -9 C3 -5 7 -3 7 2 C7 6 4 9 0 9 C-4 9 -7 6 -7 2 C-7 -1 -5 -3 -4 -6 C-2 -4 -1 -4 0 -9 Z" fill="#A78BFA"/></g>
+              <text class="cur" x="247.5" y="140">Current Streak</text>
+              <text class="dt" x="247.5" y="160">${cur.len ? esc(range(cur.start, cur.end)) : '-'}</text>
+              <text class="num" x="412.5" y="86">${esc(best.len)}</text>
+              <text class="lbl" x="412.5" y="114">Longest Streak</text>
+              <text class="dt" x="412.5" y="138">${best.len ? esc(range(best.start, best.end)) : '-'}</text>
+              </svg>`;
+              fs.mkdirSync('assets', { recursive: true });
+              fs.writeFileSync('assets/streak.svg', svg);
+              core.info(`Streak card: total=${total}, current=${cur.len}, longest=${best.len}`);
+            } catch (err) {
+              core.warning(`Could not build streak card: ${err.message}`);
+            }
 
       - name: Commit changes
         run: |
-          if ! git diff --quiet README.md; then
+          git add -A -- README.md
+          [ -d assets ] && git add -A -- assets || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "docs: update recent activity"
+            git commit -m "docs: update activity and streak"
             git push
-          else
-            echo "No changes to commit."
           fi
