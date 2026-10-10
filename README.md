@@ -29,37 +29,34 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 ## ⚡ Tech Stack
 
 <!-- TECH-STACK-START -->
-<!-- This section is updated by .github/workflows/update-tech-stack.yml -->
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,html,css,ts,vscode,github,mongodb&theme=dark" alt="Tech stack" />
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" title="C" /></a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" title="C++" /></a>
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" title="Java" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML" title="HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" title="CSS" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" height="48" alt="VS Code" title="VS Code" /></a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" title="GitHub" /></a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" title="MongoDB" /></a>
 </p>
 <!-- TECH-STACK-END -->
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🏥 HealthGuard</h3>
-      <p>Built for Smart India Hackathon. A healthcare project aimed at making health information and support easier to access.</p>
-      <p><b>Health tech · Web</b></p>
-      <a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub →</a>
-    </td>
-    <td width="50%">
-      <h3>💻 C Programming</h3>
-      <p>A growing library of practice problems, data structures, algorithms, and coursework, all written in C.</p>
-      <p><b>C · DSA · Problem solving</b></p>
-      <a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub →</a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <h3>🌐 Web Development</h3>
-      <p>Experiments with modern frontend, clean UI, and small projects that solve real student problems.</p>
-      <a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub →</a>
-    </td>
-  </tr>
-</table>
+### 🏥 HealthGuard
+
+Healthcare-focused project developed for Smart India Hackathon.
+
+### 💻 C Programming
+
+My collection of C programming work and college assignments.
+
+### 🌐 Web Development
+
+Building and experimenting with modern web technologies.
+
+---
 
 ## 🎯 Now Learning
 
@@ -70,17 +67,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
   <img src="https://img.shields.io/badge/Web%20Dev-8B5CF6?style=flat-square" alt="Web development"/>
   <img src="https://img.shields.io/badge/AI%20%2F%20ML-10B981?style=flat-square" alt="AI/ML"/>
 </p>
-
-<details open>
-<summary><h2>🏷️ Holopin Badges</h2></summary>
-
-<p align="center">
-  <a href="https://holopin.io/@KinjalPramanik06">
-    <img src="https://holopin.me/KinjalPramanik06" alt="Kinjal's Holopin badges" />
-  </a>
-</p>
-
-</details>
 
 <details open>
 <summary><h2>📊 Stats and Activity</h2></summary>
@@ -108,13 +94,14 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 
 <div align="center">
   <a href="https://github.com/KinjalPramanik06">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=KinjalPramanik06&bg_color=0D1117&color=67E8F9&line=8B5CF6&point=FFFFFF&area=true&area_color=6366F1&hide_border=true" alt="Contribution activity graph"/>
+    <img src="https://ghchart.rshah.org/67e8f9/KinjalPramanik06" alt="Contribution calendar" width="100%"/>
   </a>
 </div>
 
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
+_Updating soon. Run the "Update recent activity" workflow once from the Actions tab._
 <!--END_SECTION:activity-->
 
 </details>
@@ -125,28 +112,28 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
-  <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/>
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/></a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/></a>
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/></a>
+  <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/></a>
 </p>
 
 ### 🗄️ Databases and Hosting
 
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
+  <a href="https://pages.github.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></a>
 </p>
 
 ### 💻 Software and Tools
 
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/></a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/></a>
 </p>
 
 </details>
@@ -164,6 +151,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building. Keep shipping.*
+*Keep learning. Keep building.*
 
 </div>
