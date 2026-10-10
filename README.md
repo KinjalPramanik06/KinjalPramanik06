@@ -92,12 +92,6 @@ Building and experimenting with modern web technologies.
 
 **Note:** Top languages only reflects the code in my public repositories. It doesn't measure experience or skill.
 
-<div align="center">
-  <a href="https://github.com/KinjalPramanik06">
-    <img src="https://ghchart.rshah.org/67e8f9/KinjalPramanik06" alt="Contribution calendar" width="100%"/>
-  </a>
-</div>
-
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
@@ -112,28 +106,28 @@ _Updating soon. Run the "Update recent activity" workflow once from the Actions 
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
-  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C"/></a>
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/></a>
-  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/></a>
-  <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/></a>
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="C" title="C" /></a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="36" height="36" alt="C++" title="C++" /></a>
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java" title="Java" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML" title="HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS" title="CSS" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=md&theme=dark" width="36" height="36" alt="Markdown" title="Markdown" /></a>
 </p>
 
 ### 🗄️ Databases and Hosting
 
 <p>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
-  <a href="https://pages.github.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages"/></a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="36" height="36" alt="MongoDB" title="MongoDB" /></a>
+  <a href="https://pages.github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub Pages" title="GitHub Pages" /></a>
 </p>
 
 ### 💻 Software and Tools
 
 <p>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/></a>
-  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/></a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="36" height="36" alt="Git" title="Git" /></a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub" title="GitHub" /></a>
+  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="36" height="36" alt="VS Code" title="VS Code" /></a>
 </p>
 
 </details>
@@ -151,6 +145,6 @@ _Updating soon. Run the "Update recent activity" workflow once from the Actions 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building.*
+*Keep learning. Keep building. Keep shipping.*
 
 </div>
