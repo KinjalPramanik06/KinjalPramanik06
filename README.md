@@ -73,37 +73,14 @@ Building and experimenting with modern web technologies.
 
 <div align="center">
   <a href="https://github.com/KinjalPramanik06">
-    <img src="https://streak-stats.demolab.com?user=KinjalPramanik06&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=94A3B8" alt="Contribution streak"/>
+    <img src="assets/streak.svg" alt="GitHub contribution streak" width="495"/>
   </a>
 </div>
-
-<div align="center">
-
-<!--START_SECTION:contrib-->
-**50 contributions in 2026** · [see full activity](https://github.com/KinjalPramanik06)
-<!--END_SECTION:contrib-->
-
-</div>
-
-### 💻 GitHub Profile Stats
-
-<div align="center">
-  <a href="https://github.com/KinjalPramanik06">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9&count_private=true&include_all_commits=true&cache_seconds=14400" alt="GitHub stats"/>
-  </a>
-  <a href="https://github.com/KinjalPramanik06?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&langs_count=6&cache_seconds=14400" alt="Top languages"/>
-  </a>
-</div>
-
-**Note:** Top languages only reflects the code in my public repositories. It doesn't measure experience or skill.
 
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-2. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-3. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
@@ -139,13 +116,6 @@ Building and experimenting with modern web technologies.
 </p>
 
 </details>
-
-## 📈 GitHub Statistics
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=KinjalPramanik06&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/KinjalPramanik06?label=Followers&logo=github&style=for-the-badge&color=0e75b6" alt="Followers"/>
-</p>
 
 ---
 
