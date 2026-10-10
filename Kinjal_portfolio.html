@@ -69,8 +69,8 @@
 
     <section id="projects">
       <h2 class="section-title">Featured <span class="gradient">projects</span></h2>
-      <p class="sub">A few things I've been working on.</p>
-      <div class="grid">
+      <p class="sub">My pinned repositories on GitHub.</p>
+      <div class="grid" id="projects-grid">
         <article class="card"><div class="emoji">🏥</div><h3>HealthGuard</h3><p>Healthcare-focused project developed for Smart India Hackathon.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
         <article class="card"><div class="emoji">💻</div><h3>C Programming</h3><p>My collection of C programming work and college assignments.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
         <article class="card"><div class="emoji">🌐</div><h3>Web development</h3><p>Building and experimenting with modern web technologies.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
@@ -80,7 +80,7 @@
     <section>
       <h2 class="section-title">Now <span class="gradient">learning</span></h2>
       <p class="sub">What I'm studying right now.</p>
-      <div class="chips"><span class="chip">☕ Java</span><span class="chip">◈ Object-oriented programming</span><span class="chip">⌘ Data structures & algorithms</span><span class="chip">◇ Web development</span><span class="chip">✳ AI / ML</span></div>
+      <div class="icons"><a href="https://www.java.com/" target="_blank" rel="noreferrer" title="Java and OOP" aria-label="Java and OOP"><img src="https://skillicons.dev/icons?i=java&theme=dark" alt="" width="36" height="36" loading="lazy"></a><a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer" title="Data structures and algorithms in C" aria-label="Data structures and algorithms in C"><img src="https://skillicons.dev/icons?i=c&theme=dark" alt="" width="36" height="36" loading="lazy"></a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer" title="Web development: HTML" aria-label="Web development: HTML"><img src="https://skillicons.dev/icons?i=html&theme=dark" alt="" width="36" height="36" loading="lazy"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer" title="Web development: CSS" aria-label="Web development: CSS"><img src="https://skillicons.dev/icons?i=css&theme=dark" alt="" width="36" height="36" loading="lazy"></a><a href="https://www.python.org/" target="_blank" rel="noreferrer" title="AI / ML with Python" aria-label="AI / ML with Python"><img src="https://skillicons.dev/icons?i=py&theme=dark" alt="" width="36" height="36" loading="lazy"></a></div>
     </section>
 
     <section id="activity">
@@ -169,6 +169,29 @@
         .catch(function () {
           list.innerHTML = '<li>Recent activity is unavailable right now. <a href="https://github.com/' + USER + '" target="_blank" rel="noreferrer">See it on GitHub ↗</a></li>';
         });
+    })();
+    (function () {
+      var grid = document.getElementById('projects-grid');
+      if (!grid) return;
+      fetch('assets/pinned.json')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (list) {
+          if (!list.length) return;
+          grid.innerHTML = '';
+          list.forEach(function (p) {
+            var card = document.createElement('article'); card.className = 'card';
+            var em = document.createElement('div'); em.className = 'emoji'; em.textContent = '📌';
+            var h3 = document.createElement('h3'); h3.textContent = p.name;
+            var d = document.createElement('p'); d.textContent = p.description || 'No description yet.';
+            var meta = [p.language, p.stars ? '⭐ ' + p.stars : '', p.fork ? 'Fork' : ''].filter(Boolean).join(' · ');
+            card.appendChild(em); card.appendChild(h3); card.appendChild(d);
+            if (meta) { var m = document.createElement('p'); m.style.marginTop = '8px'; m.style.fontSize = '.85rem'; m.textContent = meta; card.appendChild(m); }
+            var wrap = document.createElement('p'); wrap.style.marginTop = '15px';
+            var a = document.createElement('a'); a.href = p.url; a.target = '_blank'; a.rel = 'noreferrer'; a.textContent = 'View on GitHub ↗';
+            wrap.appendChild(a); card.appendChild(wrap); grid.appendChild(card);
+          });
+        })
+        .catch(function () { /* keep the static cards */ });
     })();
   </script>
 </body>
