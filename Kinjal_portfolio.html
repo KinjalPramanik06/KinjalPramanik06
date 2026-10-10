@@ -4,43 +4,205 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#070b14">
-  <meta name="description" content="Kinjal Pramanik — CSE student, developer, and builder.">
-  <title>Kinjal Pramanik | Digital Craftsman</title>
+  <meta name="description" content="Kinjal Pramanik, CSE student, developer, and builder.">
+  <title>Kinjal Pramanik | Developer & Builder</title>
   <style>
-    :root{color-scheme:dark;--bg:#070b14;--panel:rgba(15,23,42,.72);--line:rgba(103,232,249,.22);--cyan:#67e8f9;--violet:#a78bfa;--muted:#a9b7cd}
+    :root{color-scheme:dark;--bg:#070b14;--line:rgba(103,232,249,.22);--cyan:#67e8f9;--violet:#a78bfa;--muted:#a9b7cd}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 10%,#10263c 0,transparent 38%),radial-gradient(ellipse at 90% 30%,#21163f 0,transparent 35%),var(--bg);color:#edf6ff;font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:hidden}
     body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#8be9ff 1px,transparent 1px);background-size:27px 27px;mask-image:linear-gradient(to bottom,#000,transparent 80%)}
-    a{color:var(--cyan);text-decoration:none}a:hover{color:white}.wrap{width:min(1100px,92vw);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;color:var(--muted)}.logo{font-weight:800;letter-spacing:.12em;color:#fff}.navlinks{display:flex;gap:22px;font-size:.92rem}
-    .hero{min-height:78vh;display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center;padding:48px 0 72px}.eyebrow{color:var(--cyan);font-size:.8rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase}.hero h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.98;letter-spacing:-.06em;margin:18px 0}.gradient{background:linear-gradient(100deg,#fff 5%,var(--cyan) 45%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:1.16rem;color:var(--muted);max-width:600px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{border:1px solid var(--line);border-radius:12px;padding:11px 17px;background:rgba(103,232,249,.08);font-weight:700;box-shadow:0 0 25px rgba(34,211,238,.06);transition:transform .25s,box-shadow .25s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(34,211,238,.14)}.portrait-shell{position:relative;max-width:390px;margin:auto;perspective:1000px}.portrait-shell:before{content:"";position:absolute;inset:7%;border-radius:50%;background:linear-gradient(120deg,#06b6d4,#8b5cf6);filter:blur(48px);opacity:.32;animation:pulse 4s ease-in-out infinite}.portrait{position:relative;width:100%;display:block;border-radius:28px;border:1px solid rgba(103,232,249,.34);box-shadow:0 30px 90px #0009;transform:rotateY(-5deg) rotateX(2deg);animation:float 6s ease-in-out infinite}
-    section{padding:54px 0}.section-title{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 10px}.sub{color:var(--muted);margin:0 0 28px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,rgba(15,23,42,.85),rgba(9,14,27,.76));border:1px solid var(--line);border-radius:18px;padding:23px;backdrop-filter:blur(14px);transition:transform .25s,border-color .25s;transform-style:preserve-3d}.card:hover{transform:translateY(-7px) rotateX(2deg);border-color:rgba(167,139,250,.7)}.card h3{margin:5px 0 9px}.card p{color:var(--muted);margin:0}.emoji{font-size:1.7rem}.chips{display:flex;flex-wrap:wrap;gap:10px}.chip{padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:#0b1424;color:#dbeafe;font-size:.92rem}.chip img{width:20px;height:20px;vertical-align:middle;margin-right:7px}.stack{display:flex;flex-wrap:wrap;gap:14px}.stack a{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:12px;padding:10px 13px;background:#0b1424;color:#dbeafe}.stack img{width:25px;height:25px}.foot{border-top:1px solid #1b2b41;padding:26px 0 38px;color:var(--muted);text-align:center}.orb{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan);animation:drift 8s linear infinite;pointer-events:none}
-    @keyframes float{0%,100%{transform:translateY(0) rotateY(-5deg) rotateX(2deg)}50%{transform:translateY(-12px) rotateY(3deg) rotateX(-1deg)}}@keyframes pulse{0%,100%{opacity:.23;transform:scale(.94)}50%{opacity:.42;transform:scale(1.05)}}@keyframes drift{0%{transform:translate(0,0)}50%{transform:translate(25px,-35px)}100%{transform:translate(-10px,10px)}}@media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center;padding-top:35px}.lead{margin:auto}.actions{justify-content:center}.portrait-shell{max-width:300px}.grid{grid-template-columns:1fr}.navlinks{gap:12px}.navlinks a:nth-child(2){display:none}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+    a{color:var(--cyan);text-decoration:none}a:hover{color:#fff}a:focus-visible,.btn:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:8px}
+    .wrap{width:min(1100px,92vw);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;color:var(--muted)}.logo{font-weight:800;letter-spacing:.12em;color:#fff}.navlinks{display:flex;gap:22px;font-size:.92rem;flex-wrap:wrap}
+    .hero{min-height:78vh;display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center;padding:48px 0 72px}.eyebrow{color:var(--cyan);font-size:.85rem;font-weight:700}.hero h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.98;letter-spacing:-.06em;margin:18px 0}
+    .gradient{background:linear-gradient(100deg,#fff 5%,var(--cyan) 45%,var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:1.16rem;color:var(--muted);max-width:600px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .btn{border:1px solid var(--line);border-radius:12px;padding:11px 17px;background:rgba(103,232,249,.08);font-weight:700;box-shadow:0 0 25px rgba(34,211,238,.06);transition:transform .25s,box-shadow .25s}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 35px rgba(34,211,238,.14)}
+    .portrait-shell{position:relative;max-width:390px;margin:auto;perspective:1000px}.portrait-shell:before{content:"";position:absolute;inset:7%;border-radius:50%;background:linear-gradient(120deg,#06b6d4,#8b5cf6);filter:blur(48px);opacity:.32;animation:pulse 4s ease-in-out infinite}
+    .portrait{position:relative;width:100%;display:block;border-radius:28px;border:1px solid rgba(103,232,249,.34);box-shadow:0 30px 90px #0009;transform:rotateY(-5deg) rotateX(2deg);animation:float 6s ease-in-out infinite}
+    section{padding:54px 0}.section-title{font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 10px}.sub{color:var(--muted);margin:0 0 28px}.sub-title{font-size:1.15rem;margin:30px 0 14px;color:#fff}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:linear-gradient(145deg,rgba(15,23,42,.85),rgba(9,14,27,.76));border:1px solid var(--line);border-radius:18px;padding:23px;backdrop-filter:blur(14px);transition:transform .25s,border-color .25s}.card:hover{transform:translateY(-6px);border-color:rgba(167,139,250,.7)}.card h3{margin:5px 0 9px}.card p{color:var(--muted);margin:0}.emoji{font-size:1.7rem}
+    .chips,.stack{display:flex;flex-wrap:wrap;gap:10px}
+    .chip{padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:#0b1424;color:#dbeafe;font-size:.92rem}
+    .stack a{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:12px;padding:10px 13px;background:#0b1424;color:#dbeafe}.stack img{width:25px;height:25px}
+    .panel{background:rgba(11,20,36,.7);border:1px solid var(--line);border-radius:18px;padding:22px}
+    .stat-row{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center}.stat-row img{max-width:100%;height:auto}.stat-row.tall img{height:165px}
+    .note{color:var(--muted);font-size:.9rem;margin:14px 0 0}
+    .activity{list-style:none;margin:0;padding:0;display:grid;gap:10px}.activity li{display:flex;gap:12px;align-items:baseline;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#0b1424;color:#dbeafe}.activity time{margin-left:auto;color:var(--muted);font-size:.82rem;white-space:nowrap}
+    .badges img{max-width:100%;height:auto;border-radius:12px;display:block;margin:auto}
+    .tool{padding:7px 12px;border-radius:8px;font-size:.88rem;font-weight:600;color:#fff;border:1px solid rgba(255,255,255,.12)}
+    .c-c,.c-cpp{background:#00599c}.c-java{background:#b8700a}.c-html{background:#e34f26}.c-css{background:#1572b6}.c-ts{background:#3178c6}.c-md{background:#1f2937}.c-mongo{background:#2f7d32}.c-pages{background:#2a3547}.c-git{background:#f05032}.c-gh{background:#24292f}.c-vs{background:#007acc}
+    .counters{display:flex;flex-wrap:wrap;gap:14px;align-items:center}.counters img{height:28px}
+    .foot{border-top:1px solid #1b2b41;padding:26px 0 38px;color:var(--muted);text-align:center}
+    .orb{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 18px var(--cyan);animation:drift 8s linear infinite;pointer-events:none}
+    @keyframes float{0%,100%{transform:translateY(0) rotateY(-5deg) rotateX(2deg)}50%{transform:translateY(-12px) rotateY(3deg) rotateX(-1deg)}}@keyframes pulse{0%,100%{opacity:.23;transform:scale(.94)}50%{opacity:.42;transform:scale(1.05)}}@keyframes drift{0%{transform:translate(0,0)}50%{transform:translate(25px,-35px)}100%{transform:translate(-10px,10px)}}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center;padding-top:35px}.lead{margin:auto}.actions{justify-content:center}.portrait-shell{max-width:300px}.grid{grid-template-columns:1fr}.navlinks{gap:12px}.stat-row.tall img{height:auto}.activity li{flex-wrap:wrap}.activity time{margin-left:0}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
 <body>
   <span class="orb" style="top:18%;left:7%"></span><span class="orb" style="top:44%;right:9%;animation-delay:-3s"></span>
-  <header class="wrap nav"><a class="logo" href="#">KP<span style="color:var(--cyan)">.</span></a><nav class="navlinks"><a href="#about">About</a><a href="#stack">Tech Stack</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></header>
+  <header class="wrap nav"><a class="logo" href="#">KP<span style="color:var(--cyan)">.</span></a>
+    <nav class="navlinks" aria-label="Main"><a href="#about">About</a><a href="#stack">Stack</a><a href="#projects">Projects</a><a href="#activity">Activity</a><a href="#tools">Tools</a><a href="#contact">Contact</a></nav>
+  </header>
   <main class="wrap">
     <section class="hero" id="about">
-      <div><div class="eyebrow">Computer Science · Developer · Builder</div><h1>Hi, I'm<br><span class="gradient">Kinjal Pramanik.</span></h1><p class="lead">A CSE student and digital craftsman learning by building, experimenting, and turning ideas into useful software.</p><div class="actions"><a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">↗ GitHub Profile</a><a class="btn" href="#projects">Explore Projects ↓</a></div></div>
+      <div>
+        <div class="eyebrow">CSE student · Developer · Builder</div>
+        <h1>Hey, I'm<br><span class="gradient">Kinjal Pramanik.</span></h1>
+        <p class="lead">I'm a Computer Science student who learns by shipping. I turn ideas into working code and keep improving with every project.</p>
+        <div class="actions"><a class="btn" href="https://github.com/KinjalPramanik06" target="_blank" rel="noreferrer">GitHub profile ↗</a><a class="btn" href="#projects">See my projects ↓</a></div>
+      </div>
       <div class="portrait-shell"><img class="portrait" src="assets/kinjal-dotted-portrait.png" alt="Kinjal Pramanik in a neon dotted portrait"></div>
     </section>
-    <section><h2 class="section-title">Curious by nature. <span class="gradient">Built to create.</span></h2><p class="sub">I’m strengthening my fundamentals while exploring modern software development.</p><div class="grid">
-      <article class="card"><div class="emoji">🧠</div><h3>Problem Solving</h3><p>Practising data structures, algorithms, and core programming concepts.</p></article>
-      <article class="card"><div class="emoji">🧩</div><h3>Building Projects</h3><p>Learning through practical projects, iteration, and debugging.</p></article>
-      <article class="card"><div class="emoji">🚀</div><h3>Exploring What's Next</h3><p>Discovering web technologies and AI/ML while building a strong foundation.</p></article>
-    </div></section>
-    <section id="stack"><h2 class="section-title">⚡ Tech Stack</h2><p class="sub">Technologies I use or am exploring. On GitHub, the README stack can be refreshed automatically with GitHub Actions.</p><div class="stack">
-      <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c" alt="">C</a><a href="https://en.cppreference.com/w/cpp"><img src="https://skillicons.dev/icons?i=cpp" alt="">C++</a><a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" alt="">Java</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" alt="">HTML</a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" alt="">CSS</a><a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" alt="">TypeScript</a><a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="">VS Code</a><a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" alt="">MongoDB</a><a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" alt="">GitHub</a>
-    </div></section>
-    <section id="projects"><h2 class="section-title">Selected <span class="gradient">Projects</span></h2><p class="sub">A few areas I’m working on. Replace the links with your exact repository URLs.</p><div class="grid">
-      <article class="card"><div class="emoji">🏥</div><h3>HealthGuard</h3><p>Healthcare-focused project developed for Smart India Hackathon, with a focus on making healthcare support more accessible.</p><p style="margin-top:15px"><a href="https://github.com/">View repository ↗</a></p></article>
-      <article class="card"><div class="emoji">💻</div><h3>C Programming</h3><p>Programming practice, sorting algorithms, linked lists, and data structures in C.</p><p style="margin-top:15px"><a href="https://github.com/">View repository ↗</a></p></article>
-      <article class="card"><div class="emoji">🌐</div><h3>Web Development</h3><p>Experiments in frontend development, interface design, and practical web projects.</p><p style="margin-top:15px"><a href="https://github.com/">View repository ↗</a></p></article>
-    </div></section>
-    <section><h2 class="section-title">Currently <span class="gradient">Learning</span></h2><p class="sub">Java · OOP · DSA · Web Development · AI / ML</p><div class="chips"><span class="chip">☕ Java</span><span class="chip">◈ Object-Oriented Programming</span><span class="chip">⌘ Data Structures & Algorithms</span><span class="chip">◇ Web Development</span><span class="chip">✳ AI / ML</span></div></section>
-    <section id="contact"><h2 class="section-title">Let's connect.</h2><p class="sub">Find my work on GitHub. Add your preferred contact or social links here when ready.</p><div class="actions"><a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+
+    <section>
+      <h2 class="section-title">Curious by nature. <span class="gradient">Built to create.</span></h2>
+      <p class="sub">Strong fundamentals first, modern tools second.</p>
+      <div class="grid">
+        <article class="card"><div class="emoji">🧠</div><h3>Problem solving</h3><p>Daily practice with data structures, algorithms, and core programming concepts.</p></article>
+        <article class="card"><div class="emoji">🧩</div><h3>Building projects</h3><p>Learning through real projects, iteration, and debugging.</p></article>
+        <article class="card"><div class="emoji">🚀</div><h3>Exploring what's next</h3><p>Web technologies and AI/ML, built on a solid foundation.</p></article>
+      </div>
+    </section>
+
+    <section id="stack">
+      <h2 class="section-title">⚡ Tech stack</h2>
+      <p class="sub">What I use and what I'm exploring.</p>
+      <div class="stack">
+        <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c" alt="">C</a><a href="https://en.cppreference.com/w/cpp"><img src="https://skillicons.dev/icons?i=cpp" alt="">C++</a><a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" alt="">Java</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" alt="">HTML</a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" alt="">CSS</a><a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" alt="">TypeScript</a><a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" alt="">VS Code</a><a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" alt="">MongoDB</a><a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" alt="">GitHub</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Selected <span class="gradient">projects</span></h2>
+      <p class="sub">A few things I've been working on.</p>
+      <div class="grid">
+        <article class="card"><div class="emoji">🏥</div><h3>HealthGuard</h3><p>Built for Smart India Hackathon. A healthcare project aimed at making health information and support easier to access.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
+        <article class="card"><div class="emoji">💻</div><h3>C Programming</h3><p>Practice problems, sorting algorithms, linked lists, and data structures in C.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
+        <article class="card"><div class="emoji">🌐</div><h3>Web development</h3><p>Frontend experiments, clean interfaces, and small projects that solve real problems.</p><p style="margin-top:15px"><a href="https://github.com/KinjalPramanik06?tab=repositories">View on GitHub ↗</a></p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Now <span class="gradient">learning</span></h2>
+      <p class="sub">What I'm studying right now.</p>
+      <div class="chips"><span class="chip">☕ Java</span><span class="chip">◈ Object-oriented programming</span><span class="chip">⌘ Data structures & algorithms</span><span class="chip">◇ Web development</span><span class="chip">✳ AI / ML</span></div>
+    </section>
+
+    <section id="badges">
+      <h2 class="section-title">🏷️ Holopin <span class="gradient">badges</span></h2>
+      <p class="sub">Badges I've collected from events and open source.</p>
+      <div class="panel badges">
+        <a href="https://holopin.io/@KinjalPramanik06" target="_blank" rel="noreferrer"><img src="https://holopin.me/KinjalPramanik06" alt="Kinjal's Holopin badges" loading="lazy" onerror="this.parentNode.outerHTML='<p class=&quot;note&quot;>No badges to show yet. <a href=&quot;https://holopin.io&quot;>Create a Holopin board</a> and they will appear here.</p>'"></a>
+      </div>
+    </section>
+
+    <section id="activity">
+      <h2 class="section-title">📊 Stats and <span class="gradient">activity</span></h2>
+      <p class="sub">Live from GitHub.</p>
+
+      <h3 class="sub-title">🔥 Streak stats</h3>
+      <div class="panel stat-row"><img src="https://streak-stats.demolab.com?user=KinjalPramanik06&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=94A3B8" alt="GitHub contribution streak" loading="lazy"></div>
+
+      <h3 class="sub-title">💻 GitHub profile stats</h3>
+      <div class="panel">
+        <div class="stat-row tall">
+          <img src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9&count_private=true&include_all_commits=true&cache_seconds=14400" alt="GitHub stats" loading="lazy">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&langs_count=6&cache_seconds=14400" alt="Top languages" loading="lazy">
+        </div>
+        <p class="note"><strong>Note:</strong> Top languages only reflects the code in my public repositories. It doesn't measure experience or skill.</p>
+      </div>
+
+      <div class="panel stat-row" style="margin-top:18px"><img src="https://github-readme-activity-graph.vercel.app/graph?username=KinjalPramanik06&bg_color=0D1117&color=67E8F9&line=8B5CF6&point=FFFFFF&area=true&area_color=6366F1&hide_border=true" alt="Contribution activity graph" loading="lazy"></div>
+
+      <h3 class="sub-title">⚡ Recent GitHub activity</h3>
+      <ol class="activity" id="activity-list"><li>Loading recent activity…</li></ol>
+    </section>
+
+    <section id="tools">
+      <h2 class="section-title">🛠️ My favorite <span class="gradient">tools</span></h2>
+      <p class="sub">What I reach for when I build.</p>
+      <h3 class="sub-title">👨‍💻 Programming and markup languages</h3>
+      <div class="chips"><span class="tool c-c">C</span><span class="tool c-cpp">C++</span><span class="tool c-java">Java</span><span class="tool c-html">HTML</span><span class="tool c-css">CSS</span><span class="tool c-ts">TypeScript</span><span class="tool c-md">Markdown</span></div>
+      <h3 class="sub-title">🗄️ Databases and hosting</h3>
+      <div class="chips"><span class="tool c-mongo">MongoDB</span><span class="tool c-pages">GitHub Pages</span></div>
+      <h3 class="sub-title">💻 Software and tools</h3>
+      <div class="chips"><span class="tool c-git">Git</span><span class="tool c-gh">GitHub</span><span class="tool c-vs">VS Code</span></div>
+    </section>
+
+    <section id="stats">
+      <h2 class="section-title">📈 GitHub <span class="gradient">statistics</span></h2>
+      <div class="counters">
+        <img src="https://komarev.com/ghpvc/?username=KinjalPramanik06&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" loading="lazy">
+        <img src="https://img.shields.io/github/followers/KinjalPramanik06?label=Followers&logo=github&style=for-the-badge&color=0e75b6" alt="GitHub followers" loading="lazy">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Let's connect.</h2>
+      <p class="sub">My work lives on GitHub. Say hi there.</p>
+      <div class="actions"><a class="btn" href="https://github.com/KinjalPramanik06" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+    </section>
   </main>
-  <footer class="foot"><div class="wrap">Designed with curiosity and a little neon ✦ <br>© <span id="year"></span> Kinjal Pramanik</div></footer>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <footer class="foot"><div class="wrap">Keep learning. Keep building. Keep shipping. ✦<br>© <span id="year"></span> Kinjal Pramanik</div></footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    (function () {
+      var USER = 'KinjalPramanik06';
+      var list = document.getElementById('activity-list');
+
+      function ago(iso) {
+        var s = Math.max(1, Math.floor((Date.now() - new Date(iso)) / 1000));
+        var u = [['y', 31536000], ['mo', 2592000], ['d', 86400], ['h', 3600], ['m', 60]];
+        for (var i = 0; i < u.length; i++) if (s >= u[i][1]) return Math.floor(s / u[i][1]) + u[i][0] + ' ago';
+        return 'just now';
+      }
+
+      function describe(e) {
+        var p = e.payload || {};
+        switch (e.type) {
+          case 'PushEvent': var n = (p.commits || []).length || 1; return ['⬆️', 'Pushed ' + n + ' commit' + (n > 1 ? 's' : '') + ' to'];
+          case 'PullRequestEvent': return ['🔀', (p.action === 'closed' && p.pull_request && p.pull_request.merged ? 'Merged' : p.action.charAt(0).toUpperCase() + p.action.slice(1)) + ' PR in'];
+          case 'IssuesEvent': return ['❗', p.action.charAt(0).toUpperCase() + p.action.slice(1) + ' an issue in'];
+          case 'IssueCommentEvent': return ['💬', 'Commented in'];
+          case 'CreateEvent': return ['✨', 'Created ' + (p.ref_type || 'repository') + ' in'];
+          case 'WatchEvent': return ['⭐', 'Starred'];
+          case 'ForkEvent': return ['🍴', 'Forked'];
+          default: return null;
+        }
+      }
+
+      function render(events) {
+        list.innerHTML = '';
+        var shown = 0;
+        for (var i = 0; i < events.length && shown < 5; i++) {
+          var d = describe(events[i]);
+          if (!d) continue;
+          var li = document.createElement('li');
+          var text = document.createElement('span');
+          text.textContent = d[0] + ' ' + d[1] + ' ';
+          var a = document.createElement('a');
+          a.href = 'https://github.com/' + events[i].repo.name;
+          a.target = '_blank'; a.rel = 'noreferrer';
+          a.textContent = events[i].repo.name;
+          text.appendChild(a);
+          var t = document.createElement('time');
+          t.dateTime = events[i].created_at; t.textContent = ago(events[i].created_at);
+          li.appendChild(text); li.appendChild(t); list.appendChild(li);
+          shown++;
+        }
+        if (!shown) list.innerHTML = '<li>No recent public activity yet.</li>';
+      }
+
+      fetch('https://api.github.com/users/' + USER + '/events/public?per_page=30')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(render)
+        .catch(function () {
+          list.innerHTML = '<li>Recent activity is unavailable right now. <a href="https://github.com/' + USER + '" target="_blank" rel="noreferrer">See it on GitHub ↗</a></li>';
+        });
+    })();
+  </script>
 </body>
 </html>
