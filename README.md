@@ -75,23 +75,27 @@ I'm a Computer Science Engineering student who learns by building projects, expe
 
 ## 📊 GitHub Activity
 
+## 📊 GitHub Activity
+
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="GitHub statistics — replace KinjalPramanik06"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9" alt="Top languages — replace KinjalPramanik06"/>
+<a href="https://github.com/KinjalPramanik06">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9&count_private=true&include_all_commits=true&cache_seconds=14400" alt="Kinjal's GitHub stats"/>
+</a>
+<a href="https://github.com/KinjalPramanik06?tab=repositories">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&langs_count=6&cache_seconds=14400" alt="Kinjal's top languages"/>
+</a>
 
-<img src="https://streak-stats.demolab.com?user=KinjalPramanik06&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=94A3B8" alt="GitHub contribution streak — replace KinjalPramanik06"/>
+<a href="https://github.com/KinjalPramanik06">
+  <img src="https://streak-stats.demolab.com?user=KinjalPramanik06&hide_border=true&background=0D1117&ring=06B6D4&fire=A78BFA&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=94A3B8" alt="Kinjal's contribution streak"/>
+</a>
 
 </div>
-
-> **Setup note:** Replace every `KinjalPramanik06` with your exact GitHub username. Stats are supplied by third-party services and may occasionally be unavailable.
-
----
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Neon footer"/>
 
-_Keep learning. Keep building. Keep shipping._
+_Keep learning. Keep building_
 
 </div>
