@@ -80,7 +80,7 @@ Building and experimenting with modern web technologies.
 <div align="center">
 
 <!--START_SECTION:contrib-->
-_Contribution total loads after the first workflow run._
+**50 contributions in 2026** · [see full activity](https://github.com/KinjalPramanik06)
 <!--END_SECTION:contrib-->
 
 </div>
@@ -101,7 +101,9 @@ _Contribution total loads after the first workflow run._
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-_Loading after the first workflow run._
+1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
+2. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
+3. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
 <!--END_SECTION:activity-->
 
 </details>
