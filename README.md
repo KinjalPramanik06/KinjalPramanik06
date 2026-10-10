@@ -42,6 +42,9 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 
 ## 🚀 Featured Projects
 
+My pinned repositories on GitHub, kept up to date automatically.
+
+<!--START_SECTION:projects-->
 ### 🏥 HealthGuard
 
 Healthcare-focused project developed for Smart India Hackathon.
@@ -53,17 +56,18 @@ My collection of C programming work and college assignments.
 ### 🌐 Web Development
 
 Building and experimenting with modern web technologies.
+<!--END_SECTION:projects-->
 
 ---
 
 ## 🎯 Now Learning
 
 <p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/OOP-6366F1?style=flat-square" alt="OOP"/>
-  <img src="https://img.shields.io/badge/DSA-06B6D4?style=flat-square" alt="DSA"/>
-  <img src="https://img.shields.io/badge/Web%20Dev-8B5CF6?style=flat-square" alt="Web development"/>
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-10B981?style=flat-square" alt="AI/ML"/>
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java and OOP" title="Java and OOP" /></a>
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="Data structures and algorithms in C" title="Data structures and algorithms in C" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="Web development: HTML" title="Web development: HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="Web development: CSS" title="Web development: CSS" /></a>
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="AI / ML with Python" title="AI / ML with Python" /></a>
 </p>
 
 <details open>
@@ -80,9 +84,7 @@ Building and experimenting with modern web technologies.
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-2. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-3. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
