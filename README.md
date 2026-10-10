@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/kinjal-dotted-portrait.png" alt="Kinjal Pramanik" width="230" />
-
 # Kinjal Pramanik
 
 **CSE student · Developer · Builder**
@@ -79,6 +77,14 @@ Building and experimenting with modern web technologies.
   </a>
 </div>
 
+<div align="center">
+
+<!--START_SECTION:contrib-->
+_Contribution total loads after the first workflow run._
+<!--END_SECTION:contrib-->
+
+</div>
+
 ### 💻 GitHub Profile Stats
 
 <div align="center">
@@ -95,7 +101,7 @@ Building and experimenting with modern web technologies.
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-_Updating soon. Run the "Update recent activity" workflow once from the Actions tab._
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
