@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Think.%20Build.%20Improve.&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
 
 **CSE student · Developer · Builder**
 
@@ -13,6 +13,7 @@
 
 ---
 
+
 ## 👋 Hey, I'm Kinjal
 
 I'm a Computer Science student who learns by shipping. I like breaking things down, understanding how they really work, and then building something useful on top.
@@ -21,6 +22,7 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 - 🧠 **Sharpening:** data structures, algorithms, problem solving
 - 🛠️ **Building:** practical projects, one iteration at a time
 - 🌱 **Exploring:** Java, OOP, web development, AI/ML
+
 
 ## ⚡ Tech Stack
 
@@ -37,6 +39,7 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" title="MongoDB" /></a>
 </p>
 <!-- TECH-STACK-END -->
+
 
 ## 🚀 Featured Projects
 
@@ -58,9 +61,10 @@ All basic C Programming I have done during my college.
 
 ---
 
+
 ## 📚 Learning Journey
 
-I'm building strong fundamentals in programming and problem solving, while exploring modern web development and AI/ML:
+I'm building strong fundamentals in programming and problem solving, while exploring modern web development :
 
 <table>
 <tr>
@@ -86,7 +90,6 @@ I'm building strong fundamentals in programming and problem solving, while explo
 </tr>
 </table>
 
-**Current focus:** strengthening data structures, algorithms, and Java OOP concepts, while exploring web development and the basics of AI/ML, building toward practical projects.
 
 ## 📊 GitHub Analytics
 
@@ -105,7 +108,6 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 </div>
 
-<sub>All numbers come straight from my GitHub account and refresh about every 15 minutes. Languages count my public, non-fork repositories and don't measure skill.</sub>
 
 ## ⚡ Recent GitHub Activity
 
@@ -116,9 +118,8 @@ I'm building strong fundamentals in programming and problem solving, while explo
 4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
 <!--END_SECTION:activity-->
 
-## 🛠️ My Favorite Tools
 
-Detected automatically from the languages, frameworks, databases and tools used across my repositories. Updates about every 15 minutes.
+## 🛠️ My Favorite Tools
 
 <!--START_SECTION:tools-->
 ### 👨‍💻 Programming and Markup Languages
@@ -160,6 +161,7 @@ Detected automatically from the languages, frameworks, databases and tools used 
 </p>
 <!--END_SECTION:tools-->
 
+
 ## 🤝 Connect With Me
 
 <div align="center">
@@ -175,6 +177,6 @@ Detected automatically from the languages, frameworks, databases and tools used 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building. Keep shipping.*
+*Keep learning. Keep building*
 
 </div>
