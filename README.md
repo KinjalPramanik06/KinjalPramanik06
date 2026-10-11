@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Think.%20Build.%20Improve.&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
 
-**CSE student · Developer · Builder**
 
 *I turn ideas into working code.*
 
