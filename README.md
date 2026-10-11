@@ -18,6 +18,7 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 - 🛠️ **Building:** practical projects, one iteration at a time
 - 🌱 **Exploring:** Java, OOP, web development, AI/ML
 
+
 ## ⚡ Tech Stack
 
 <!-- TECH-STACK-START -->
@@ -34,9 +35,8 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 </p>
 <!-- TECH-STACK-END -->
 
-## 🚀 Featured Projects
 
-These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
+## 🚀 Featured Projects
 
 <!--START_SECTION:projects-->
 ### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
@@ -50,9 +50,7 @@ No description yet.
 All basic C Programming I have done during my college.
 
 <sub>⭐ 1</sub>
-<!--END_SECTION:projects-->
 
----
 
 ## 📚 Learning Journey
 
@@ -81,6 +79,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 </td>
 </tr>
 </table>
+
 
 ##  📊 GitHub Analytics
 
@@ -111,6 +110,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 <!--END_SECTION:activity-->
 
 </details>
+
 
 ## 🛠️ My Favorite Tools
 
@@ -143,6 +143,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 </details>
 
+
 ### 🤝 Connect With Me
 
 <div align="center">
@@ -158,6 +159,6 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building. Keep shipping.*
+*Keep learning. Keep building*
 
 </div>
