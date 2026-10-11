@@ -36,7 +36,7 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 <!--START_SECTION:projects-->
 ### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
 
-No description yet.
+HealthGuard — Smarter Health. Safer Lives.
 
 <sub>CSS · ⭐ 2</sub>
 
