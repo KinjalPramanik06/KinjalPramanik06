@@ -38,20 +38,20 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 
 ## 🚀 Featured Projects
 
-My pinned repositories on GitHub, kept up to date automatically.
+These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
 
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 🏥 HealthGuard
 
-No description yet.
+Healthcare-focused project developed for Smart India Hackathon.
 
-<sub>CSS · ⭐ 2</sub>
+### 💻 C Programming
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+My collection of C programming work and college assignments.
 
-All basic C Programming I have done during my college.
+### 🌐 Web Development
 
-<sub>⭐ 1</sub>
+Building and experimenting with modern web technologies.
 <!--END_SECTION:projects-->
 
 ---
@@ -92,10 +92,10 @@ I'm building strong fundamentals in programming and problem solving, while explo
 <div align="center">
 
 <a href="https://github.com/KinjalPramanik06">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9&include_all_commits=true&count_private=true&cache_seconds=14400" alt="GitHub stats"/>
+  <img height="165" src="assets/stats.svg" alt="GitHub stats"/>
 </a>
 <a href="https://github.com/KinjalPramanik06?tab=repositories">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&cache_seconds=14400" alt="Most used languages"/>
+  <img height="165" src="assets/languages.svg" alt="Most used languages"/>
 </a>
 
 <a href="https://github.com/KinjalPramanik06">
@@ -104,15 +104,12 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 </div>
 
-<sub>Top languages only reflects the code in my public repositories. It doesn't measure experience or skill.</sub>
+<sub>All numbers come straight from my GitHub account and refresh about every 15 minutes. Languages count my public, non-fork repositories and don't measure skill.</sub>
 
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-3. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
