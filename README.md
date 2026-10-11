@@ -2,9 +2,6 @@
 
 # Kinjal Pramanik
 
-**CSE student · Developer · Builder**
-
-*I turn ideas into working code.*
 
 <a href="https://github.com/KinjalPramanik06"><img src="https://img.shields.io/badge/GitHub-KinjalPramanik06-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <img src="https://img.shields.io/badge/Focus-DSA%20%7C%20Web%20%7C%20AI%2FML-06b6d4?style=for-the-badge" alt="Focus"/>
@@ -45,17 +42,17 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 My pinned repositories on GitHub, kept up to date automatically.
 
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 🏥 HealthGuard
 
-No description yet.
+Healthcare-focused project developed for Smart India Hackathon.
 
-<sub>CSS · ⭐ 2</sub>
+### 💻 C Programming
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+My collection of C programming work and college assignments.
 
-All basic C Programming I have done during my college.
+### 🌐 Web Development
 
-<sub>⭐ 1</sub>
+Building and experimenting with modern web technologies.
 <!--END_SECTION:projects-->
 
 ---
@@ -113,10 +110,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-3. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
@@ -158,6 +152,9 @@ I'm building strong fundamentals in programming and problem solving, while explo
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KinjalPramanik06)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kinjal-pramanik-5b95453b6/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_kinjal.pramanik_/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kinjalpramanik24@gmail.com)
 
 </div>
 
