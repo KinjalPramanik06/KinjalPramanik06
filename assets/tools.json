@@ -1,0 +1,102 @@
+[
+  {
+    "title": "👨‍💻 Programming and Markup Languages",
+    "tools": [
+      {
+        "id": "js",
+        "label": "JavaScript",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      {
+        "id": "ts",
+        "label": "TypeScript",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": "py",
+        "label": "Python",
+        "url": "https://www.python.org/"
+      },
+      {
+        "id": "html",
+        "label": "HTML",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        "id": "css",
+        "label": "CSS",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },
+      {
+        "id": "md",
+        "label": "Markdown",
+        "url": "https://www.markdownguide.org/"
+      }
+    ]
+  },
+  {
+    "title": "🧰 Frameworks and Libraries",
+    "tools": [
+      {
+        "id": "nodejs",
+        "label": "Node.js",
+        "url": "https://nodejs.org/"
+      },
+      {
+        "id": "react",
+        "label": "React",
+        "url": "https://react.dev/"
+      },
+      {
+        "id": "express",
+        "label": "Express",
+        "url": "https://expressjs.com/"
+      },
+      {
+        "id": "vite",
+        "label": "Vite",
+        "url": "https://vitejs.dev/"
+      }
+    ]
+  },
+  {
+    "title": "🗄️ Databases and Hosting",
+    "tools": [
+      {
+        "id": "mongodb",
+        "label": "MongoDB",
+        "url": "https://www.mongodb.com/"
+      },
+      {
+        "id": "github",
+        "label": "GitHub Pages",
+        "url": "https://pages.github.com/"
+      }
+    ]
+  },
+  {
+    "title": "💻 Software and Tools",
+    "tools": [
+      {
+        "id": "git",
+        "label": "Git",
+        "url": "https://git-scm.com/"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "id": "githubactions",
+        "label": "GitHub Actions",
+        "url": "https://github.com/features/actions"
+      },
+      {
+        "id": "vscode",
+        "label": "VS Code",
+        "url": "https://code.visualstudio.com/"
+      }
+    ]
+  }
+]

@@ -128,13 +128,21 @@ Detected automatically from the languages, frameworks, databases and tools used 
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
-  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="C" title="C" /></a>
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="36" height="36" alt="C++" title="C++" /></a>
-  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java" title="Java" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="Python" title="Python" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML" title="HTML" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS" title="CSS" /></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
   <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=md&theme=dark" width="36" height="36" alt="Markdown" title="Markdown" /></a>
+</p>
+
+### 🧰 Frameworks and Libraries
+
+<p>
+  <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="36" height="36" alt="Node.js" title="Node.js" /></a>
+  <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="36" height="36" alt="React" title="React" /></a>
+  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="36" height="36" alt="Express" title="Express" /></a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="36" height="36" alt="Vite" title="Vite" /></a>
 </p>
 
 ### 🗄️ Databases and Hosting
@@ -149,6 +157,7 @@ Detected automatically from the languages, frameworks, databases and tools used 
 <p>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="36" height="36" alt="Git" title="Git" /></a>
   <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub" title="GitHub" /></a>
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="36" height="36" alt="GitHub Actions" title="GitHub Actions" /></a>
   <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="36" height="36" alt="VS Code" title="VS Code" /></a>
 </p>
 <!--END_SECTION:tools-->
