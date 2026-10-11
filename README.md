@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
 
-
 *I turn ideas into working code.*
 
 <a href="https://github.com/KinjalPramanik06"><img src="https://img.shields.io/badge/GitHub-KinjalPramanik06-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
@@ -57,7 +56,7 @@ All basic C Programming I have done during my college.
 
 ## 📚 Learning Journey
 
-I'm building strong fundamentals in programming and problem solving, while exploring modern web development and AI/ML:
+I'm building strong fundamentals in programming and problem solving, while exploring modern web development :
 
 <table>
 <tr>
@@ -83,10 +82,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 </tr>
 </table>
 
-**Current focus:** strengthening data structures, algorithms, and Java OOP concepts, while exploring web development and the basics of AI/ML, building toward practical projects.
-
-<details open>
-<summary><h2>📊 GitHub Analytics</h2></summary>
+##  📊 GitHub Analytics
 
 <div align="center">
 
@@ -116,8 +112,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 </details>
 
-<details open>
-<summary><h2>🛠️ My Favorite Tools</h2></summary>
+## 🛠️ My Favorite Tools
 
 ### 👨‍💻 Programming and Markup Languages
 
