@@ -139,8 +139,8 @@ jobs:
             // ---------- 3) Favorite tools, detected from the projects ----------
             try {
               const INCLUDE_FORKS = true;                              // also scan forks you own
-              const ALWAYS = ['git', 'github', 'vscode', 'md'];        // tools you always want listed
-              const CACHE_VERSION = 1;
+              const ALWAYS = ['git', 'github', 'vscode', 'md', 'vercel'];  // tools you always want listed
+              const CACHE_VERSION = 2;
 
               // id (skillicons name), label, official site, category
               const TOOLS = [
@@ -242,10 +242,32 @@ jobs:
                 } catch (e) { return null; }
                 if (info.has_pages) found.add('githubpages');
 
+                // Hosting: a live-demo link on the repo, in its README, or a deployment made by Vercel / Netlify
+                let hostText = `${info.homepage || ''}\n`;
+                try {
+                  const { data } = await github.rest.repos.getReadme({ owner, repo });
+                  hostText += Buffer.from(data.content, 'base64').toString('utf8');
+                } catch (e) { /* no README */ }
+                if (/vercel\.(app|com)/i.test(hostText)) found.add('vercel');
+                if (/netlify\.(app|com)/i.test(hostText)) found.add('netlify');
+                if (/[a-z0-9-]+\.github\.io/i.test(hostText)) found.add('githubpages');
+                try {
+                  const { data } = await github.rest.repos.listDeployments({ owner, repo, per_page: 10 });
+                  for (const d of data) {
+                    const who = JSON.stringify(d.creator || {}) + JSON.stringify(d.performed_via_github_app || {}) + (d.environment || '');
+                    if (/vercel/i.test(who)) found.add('vercel');
+                    if (/netlify/i.test(who)) found.add('netlify');
+                  }
+                } catch (e) { /* ignore */ }
+
                 try {
                   const { data } = await github.rest.repos.listLanguages({ owner, repo });
                   for (const name of Object.keys(data)) if (LANGS[name]) found.add(LANGS[name]);
                 } catch (e) { /* ignore */ }
+
+                // Text that describes the project: name, description, topics and file names.
+                // This catches code that GitHub cannot read, for example programs uploaded as .zip files.
+                const hints = [repo, info.description || '', (info.topics || []).join(' ')];
 
                 const manifests = [];
                 try {
@@ -254,6 +276,7 @@ jobs:
                     if (node.type !== 'blob') continue;
                     const path = node.path;
                     if (/(^|\/)(node_modules|vendor|dist|build)\//.test(path)) continue;
+                    hints.push(path);
                     const base = path.split('/').pop();
                     if (base === 'package.json') { found.add('nodejs'); manifests.push(['npm', path]); }
                     else if (base === 'requirements.txt') manifests.push(['pip', path]);
@@ -271,6 +294,13 @@ jobs:
                     if (path.startsWith('.vscode/')) found.add('vscode');
                   }
                 } catch (e) { /* ignore */ }
+
+                const hintText = hints.join('\n');
+                const SEP = '(^|[^a-z0-9+#])';
+                if (new RegExp(`${SEP}c[ _.-]*(programming|programs?|language)`, 'i').test(hintText) || /\.(c|h)$/im.test(hintText)) found.add('c');
+                if (new RegExp(`${SEP}(c\\+\\+|cpp)([^a-z0-9+]|$)`, 'i').test(hintText) || /\.cpp$/im.test(hintText)) found.add('cpp');
+                if (new RegExp(`${SEP}java([^a-z0-9]|$)`, 'i').test(hintText)) found.add('java');
+                if (new RegExp(`${SEP}python([^a-z0-9]|$)`, 'i').test(hintText)) found.add('py');
 
                 for (const [kind, path] of manifests.slice(0, 6)) {
                   try {
