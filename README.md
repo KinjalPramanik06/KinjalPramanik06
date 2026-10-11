@@ -43,17 +43,17 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
 
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 🏥 HealthGuard
 
-No description yet.
+Healthcare-focused project developed for Smart India Hackathon.
 
-<sub>CSS · ⭐ 2</sub>
+### 💻 C Programming
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+My collection of C programming work and college assignments.
 
-All basic C Programming I have done during my college.
+### 🌐 Web Development
 
-<sub>⭐ 1</sub>
+Building and experimenting with modern web technologies.
 <!--END_SECTION:projects-->
 
 ---
@@ -88,8 +88,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 **Current focus:** strengthening data structures, algorithms, and Java OOP concepts, while exploring web development and the basics of AI/ML, building toward practical projects.
 
-<details open>
-<summary><h2>📊 GitHub Analytics</h2></summary>
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -111,16 +110,10 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-3. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
-</details>
-
-<details open>
-<summary><h2>🛠️ My Favorite Tools</h2></summary>
+## 🛠️ My Favorite Tools
 
 Detected automatically from the languages, frameworks, databases and tools used across my repositories. Updates about every 15 minutes.
 
@@ -128,21 +121,13 @@ Detected automatically from the languages, frameworks, databases and tools used 
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="Python" title="Python" /></a>
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="C" title="C" /></a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="36" height="36" alt="C++" title="C++" /></a>
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java" title="Java" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML" title="HTML" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS" title="CSS" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
   <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=md&theme=dark" width="36" height="36" alt="Markdown" title="Markdown" /></a>
-</p>
-
-### 🧰 Frameworks and Libraries
-
-<p>
-  <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="36" height="36" alt="Node.js" title="Node.js" /></a>
-  <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="36" height="36" alt="React" title="React" /></a>
-  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="36" height="36" alt="Express" title="Express" /></a>
-  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="36" height="36" alt="Vite" title="Vite" /></a>
 </p>
 
 ### 🗄️ Databases and Hosting
@@ -157,12 +142,9 @@ Detected automatically from the languages, frameworks, databases and tools used 
 <p>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="36" height="36" alt="Git" title="Git" /></a>
   <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub" title="GitHub" /></a>
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="36" height="36" alt="GitHub Actions" title="GitHub Actions" /></a>
   <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="36" height="36" alt="VS Code" title="VS Code" /></a>
 </p>
 <!--END_SECTION:tools-->
-
-</details>
 
 ## 🤝 Connect With Me
 
@@ -179,6 +161,6 @@ Detected automatically from the languages, frameworks, databases and tools used 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building*
+*Keep learning. Keep building. Keep shipping.*
 
 </div>
