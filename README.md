@@ -161,7 +161,6 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 </div>
 
----
 
 <div align="center">
 
