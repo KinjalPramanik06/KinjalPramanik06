@@ -33,8 +33,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 
 ## 🚀 Featured Projects
 
-These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
-
 <!--START_SECTION:projects-->
 ### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
 
