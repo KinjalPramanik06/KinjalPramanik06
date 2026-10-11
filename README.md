@@ -43,17 +43,17 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
 
 <!--START_SECTION:projects-->
-### 🏥 HealthGuard
+### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
 
-Healthcare-focused project developed for Smart India Hackathon.
+No description yet.
 
-### 💻 C Programming
+<sub>CSS · ⭐ 2</sub>
 
-My collection of C programming work and college assignments.
+### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
 
-### 🌐 Web Development
+All basic C Programming I have done during my college.
 
-Building and experimenting with modern web technologies.
+<sub>⭐ 1</sub>
 <!--END_SECTION:projects-->
 
 ---
@@ -111,7 +111,10 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-_Loading after the first workflow run._
+1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
+2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
+3. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
+4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
 <!--END_SECTION:activity-->
 
 </details>
