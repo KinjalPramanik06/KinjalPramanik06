@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:6366f1,100:8b5cf6&height=200&section=header&text=Kinjal%20Pramanik&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Think.%20Build.%20Improve.&descSize=22&descAlignY=58" width="100%" alt="Kinjal Pramanik"/>
+
+**CSE student · Developer · Builder**
 
 *I turn ideas into working code.*
 
@@ -8,6 +10,8 @@
 <img src="https://img.shields.io/badge/Focus-DSA%20%7C%20Web%20%7C%20AI%2FML-06b6d4?style=for-the-badge" alt="Focus"/>
 
 </div>
+
+---
 
 ## 👋 Hey, I'm Kinjal
 
@@ -17,7 +21,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 - 🧠 **Sharpening:** data structures, algorithms, problem solving
 - 🛠️ **Building:** practical projects, one iteration at a time
 - 🌱 **Exploring:** Java, OOP, web development, AI/ML
-
 
 ## ⚡ Tech Stack
 
@@ -35,26 +38,29 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 </p>
 <!-- TECH-STACK-END -->
 
-
 ## 🚀 Featured Projects
 
+These are my currently pinned repositories on GitHub. This section syncs with my pins automatically, about every 15 minutes.
+
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 🏥 HealthGuard
 
-No description yet.
+Healthcare-focused project developed for Smart India Hackathon.
 
-<sub>CSS · ⭐ 2</sub>
+### 💻 C Programming
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+My collection of C programming work and college assignments.
 
-All basic C Programming I have done during my college.
+### 🌐 Web Development
 
-<sub>⭐ 1</sub>
+Building and experimenting with modern web technologies.
+<!--END_SECTION:projects-->
 
+---
 
 ## 📚 Learning Journey
 
-I'm building strong fundamentals in programming and problem solving, while exploring modern web development :
+I'm building strong fundamentals in programming and problem solving, while exploring modern web development and AI/ML:
 
 <table>
 <tr>
@@ -80,8 +86,10 @@ I'm building strong fundamentals in programming and problem solving, while explo
 </tr>
 </table>
 
+**Current focus:** strengthening data structures, algorithms, and Java OOP concepts, while exploring web development and the basics of AI/ML, building toward practical projects.
 
-##  📊 GitHub Analytics
+<details open>
+<summary><h2>📊 GitHub Analytics</h2></summary>
 
 <div align="center">
 
@@ -100,20 +108,20 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 <sub>All numbers come straight from my GitHub account and refresh about every 15 minutes. Languages count my public, non-fork repositories and don't measure skill.</sub>
 
-### ⚡ Recent GitHub Activity
+## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-3. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-4. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
 
+<details open>
+<summary><h2>🛠️ My Favorite Tools</h2></summary>
 
-## 🛠️ My Favorite Tools
+Detected automatically from the languages, frameworks, databases and tools used across my repositories. Updates about every 15 minutes.
 
+<!--START_SECTION:tools-->
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
@@ -140,11 +148,11 @@ I'm building strong fundamentals in programming and problem solving, while explo
   <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub" title="GitHub" /></a>
   <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="36" height="36" alt="VS Code" title="VS Code" /></a>
 </p>
+<!--END_SECTION:tools-->
 
 </details>
 
-
-### 🤝 Connect With Me
+## 🤝 Connect With Me
 
 <div align="center">
 
