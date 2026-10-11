@@ -4,6 +4,7 @@
 
 **CSE student · Developer · Builder**
 
+*I turn ideas into working code.*
 
 <a href="https://github.com/KinjalPramanik06"><img src="https://img.shields.io/badge/GitHub-KinjalPramanik06-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <img src="https://img.shields.io/badge/Focus-DSA%20%7C%20Web%20%7C%20AI%2FML-06b6d4?style=for-the-badge" alt="Focus"/>
@@ -44,48 +45,75 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 My pinned repositories on GitHub, kept up to date automatically.
 
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 🏥 HealthGuard
 
-No description yet.
+Healthcare-focused project developed for Smart India Hackathon.
 
-<sub>CSS · ⭐ 2</sub>
+### 💻 C Programming
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+My collection of C programming work and college assignments.
 
-All basic C Programming I have done during my college.
+### 🌐 Web Development
 
-<sub>⭐ 1</sub>
+Building and experimenting with modern web technologies.
 <!--END_SECTION:projects-->
 
 ---
 
-## 🎯 Now Learning
+## 📚 Learning Journey
 
-<p>
-  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java and OOP" title="Java and OOP" /></a>
-  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="Data structures and algorithms in C" title="Data structures and algorithms in C" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="Web development: HTML" title="Web development: HTML" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="Web development: CSS" title="Web development: CSS" /></a>
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="AI / ML with Python" title="AI / ML with Python" /></a>
-</p>
+I'm building strong fundamentals in programming and problem solving, while exploring modern web development and AI/ML:
+
+<table>
+<tr>
+<td align="center" width="25%">
+  <a href="https://www.java.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="36" height="36" alt="Java" title="Java" /></a><br/>
+  <b>Java &amp; OOP</b>
+</td>
+<td align="center" width="25%">
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="C" title="C" /></a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="36" height="36" alt="C++" title="C++" /></a><br/>
+  <b>Data Structures &amp; Algorithms</b>
+</td>
+<td align="center" width="25%">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML" title="HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS" title="CSS" /></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a><br/>
+  <b>Web Development</b>
+</td>
+<td align="center" width="25%">
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="Python" title="Python" /></a><br/>
+  <b>AI / ML</b>
+</td>
+</tr>
+</table>
+
+**Current focus:** strengthening data structures, algorithms, and Java OOP concepts, while exploring web development and the basics of AI/ML, building toward practical projects.
 
 <details open>
-<summary><h2>📊 Stats and Activity</h2></summary>
-
-### 🔥 Streak Stats
+<summary><h2>📊 GitHub Analytics</h2></summary>
 
 <div align="center">
-  <a href="https://github.com/KinjalPramanik06">
-    <img src="assets/streak.svg" alt="GitHub contribution streak" width="495"/>
-  </a>
+
+<a href="https://github.com/KinjalPramanik06">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=KinjalPramanik06&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9&include_all_commits=true&count_private=true&cache_seconds=14400" alt="GitHub stats"/>
+</a>
+<a href="https://github.com/KinjalPramanik06?tab=repositories">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KinjalPramanik06&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&cache_seconds=14400" alt="Most used languages"/>
+</a>
+
+<a href="https://github.com/KinjalPramanik06">
+  <img src="assets/streak.svg" alt="GitHub contribution streak" width="495"/>
+</a>
+
 </div>
+
+<sub>Top languages only reflects the code in my public repositories. It doesn't measure experience or skill.</sub>
 
 ### ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-2. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-3. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+_Loading after the first workflow run._
 <!--END_SECTION:activity-->
 
 </details>
@@ -122,10 +150,25 @@ All basic C Programming I have done during my college.
 
 </details>
 
+## 🤝 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KinjalPramanik06)
+<!-- To turn on a badge below: replace the YOUR-... text with your real link, then delete the comment markers at the start and end of that line. -->
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-ID) -->
+<!-- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR-INSTAGRAM-ID) -->
+<!-- [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/YOUR-X-ID) -->
+<!-- [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@example.com) -->
+
+</div>
+
 ---
 
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
+
+*Keep learning. Keep building. Keep shipping.*
 
 </div>
