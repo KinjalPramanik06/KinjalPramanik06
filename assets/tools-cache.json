@@ -1,16 +1,19 @@
 {
-  "version": 1,
+  "version": 2,
   "repos": {
     "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-10-11T12:20:03Z",
+      "pushedAt": "2026-10-11T12:20:30Z",
       "tools": [
+        "vercel",
         "html",
         "githubactions"
       ]
     },
     "KinjalPramanik06/DSA-C-Program": {
       "pushedAt": "2026-10-11T10:26:52Z",
-      "tools": []
+      "tools": [
+        "c"
+      ]
     },
     "KinjalPramanik06/HealthGuard_Prototype": {
       "pushedAt": "2026-09-15T05:09:20Z",
@@ -31,6 +34,7 @@
       "pushedAt": "2026-08-24T10:24:42Z",
       "tools": [
         "githubpages",
+        "vercel",
         "js",
         "css",
         "html"
@@ -38,11 +42,14 @@
     },
     "KinjalPramanik06/C_Program": {
       "pushedAt": "2026-03-21T07:21:11Z",
-      "tools": []
+      "tools": [
+        "c"
+      ]
     },
     "SoulSociety-4/HealthGuard_Prototype": {
       "pushedAt": "2026-09-15T05:09:20Z",
       "tools": [
+        "vercel",
         "css",
         "ts",
         "js",

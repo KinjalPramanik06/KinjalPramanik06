@@ -3,6 +3,11 @@
     "title": "👨‍💻 Programming and Markup Languages",
     "tools": [
       {
+        "id": "c",
+        "label": "C",
+        "url": "https://en.cppreference.com/w/c"
+      },
+      {
         "id": "js",
         "label": "JavaScript",
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -66,6 +71,11 @@
         "id": "mongodb",
         "label": "MongoDB",
         "url": "https://www.mongodb.com/"
+      },
+      {
+        "id": "vercel",
+        "label": "Vercel",
+        "url": "https://vercel.com/"
       },
       {
         "id": "github",

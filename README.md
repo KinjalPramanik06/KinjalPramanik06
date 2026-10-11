@@ -124,6 +124,7 @@ Detected automatically from the languages, frameworks, databases and tools used 
 ### 👨‍💻 Programming and Markup Languages
 
 <p>
+  <a href="https://en.cppreference.com/w/c" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="36" height="36" alt="C" title="C" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="36" height="36" alt="JavaScript" title="JavaScript" /></a>
   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="36" height="36" alt="TypeScript" title="TypeScript" /></a>
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="Python" title="Python" /></a>
@@ -145,6 +146,7 @@ Detected automatically from the languages, frameworks, databases and tools used 
 
 <p>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="36" height="36" alt="MongoDB" title="MongoDB" /></a>
+  <a href="https://vercel.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="36" height="36" alt="Vercel" title="Vercel" /></a>
   <a href="https://pages.github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub Pages" title="GitHub Pages" /></a>
 </p>
 
