@@ -1,4 +1,4 @@
-name: Update activity, projects and stats
+name: Sync profile (projects, tools, activity, stats)
 
 on:
   schedule:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Sync pinned projects, activity, streak and stats
+      - name: Sync pinned projects, tools, activity, streak and stats
         uses: actions/github-script@v7
         with:
           script: |
@@ -134,6 +134,238 @@ jobs:
               }
             } catch (err) {
               core.warning(`Could not read pinned repositories: ${err.message}`);
+            }
+
+            // ---------- 3) Favorite tools, detected from the projects ----------
+            try {
+              const INCLUDE_FORKS = true;                              // also scan forks you own
+              const ALWAYS = ['git', 'github', 'vscode', 'md'];        // tools you always want listed
+              const CACHE_VERSION = 1;
+
+              // id (skillicons name), label, official site, category
+              const TOOLS = [
+                ['c', 'C', 'https://en.cppreference.com/w/c', 'lang'],
+                ['cpp', 'C++', 'https://isocpp.org/', 'lang'],
+                ['cs', 'C#', 'https://learn.microsoft.com/dotnet/csharp/', 'lang'],
+                ['java', 'Java', 'https://www.java.com/', 'lang'],
+                ['js', 'JavaScript', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript', 'lang'],
+                ['ts', 'TypeScript', 'https://www.typescriptlang.org/', 'lang'],
+                ['py', 'Python', 'https://www.python.org/', 'lang'],
+                ['html', 'HTML', 'https://developer.mozilla.org/en-US/docs/Web/HTML', 'lang'],
+                ['css', 'CSS', 'https://developer.mozilla.org/en-US/docs/Web/CSS', 'lang'],
+                ['sass', 'Sass', 'https://sass-lang.com/', 'lang'],
+                ['php', 'PHP', 'https://www.php.net/', 'lang'],
+                ['go', 'Go', 'https://go.dev/', 'lang'],
+                ['rust', 'Rust', 'https://www.rust-lang.org/', 'lang'],
+                ['kotlin', 'Kotlin', 'https://kotlinlang.org/', 'lang'],
+                ['swift', 'Swift', 'https://www.swift.org/', 'lang'],
+                ['dart', 'Dart', 'https://dart.dev/', 'lang'],
+                ['ruby', 'Ruby', 'https://www.ruby-lang.org/', 'lang'],
+                ['bash', 'Shell', 'https://www.gnu.org/software/bash/', 'lang'],
+                ['powershell', 'PowerShell', 'https://learn.microsoft.com/powershell/', 'lang'],
+                ['r', 'R', 'https://www.r-project.org/', 'lang'],
+                ['md', 'Markdown', 'https://www.markdownguide.org/', 'lang'],
+                ['nodejs', 'Node.js', 'https://nodejs.org/', 'fw'],
+                ['react', 'React', 'https://react.dev/', 'fw'],
+                ['nextjs', 'Next.js', 'https://nextjs.org/', 'fw'],
+                ['vue', 'Vue', 'https://vuejs.org/', 'fw'],
+                ['angular', 'Angular', 'https://angular.dev/', 'fw'],
+                ['svelte', 'Svelte', 'https://svelte.dev/', 'fw'],
+                ['express', 'Express', 'https://expressjs.com/', 'fw'],
+                ['nestjs', 'NestJS', 'https://nestjs.com/', 'fw'],
+                ['tailwind', 'Tailwind CSS', 'https://tailwindcss.com/', 'fw'],
+                ['bootstrap', 'Bootstrap', 'https://getbootstrap.com/', 'fw'],
+                ['vite', 'Vite', 'https://vitejs.dev/', 'fw'],
+                ['webpack', 'Webpack', 'https://webpack.js.org/', 'fw'],
+                ['jquery', 'jQuery', 'https://jquery.com/', 'fw'],
+                ['threejs', 'Three.js', 'https://threejs.org/', 'fw'],
+                ['redux', 'Redux', 'https://redux.js.org/', 'fw'],
+                ['electron', 'Electron', 'https://www.electronjs.org/', 'fw'],
+                ['prisma', 'Prisma', 'https://www.prisma.io/', 'fw'],
+                ['graphql', 'GraphQL', 'https://graphql.org/', 'fw'],
+                ['spring', 'Spring', 'https://spring.io/', 'fw'],
+                ['flask', 'Flask', 'https://flask.palletsprojects.com/', 'fw'],
+                ['django', 'Django', 'https://www.djangoproject.com/', 'fw'],
+                ['fastapi', 'FastAPI', 'https://fastapi.tiangolo.com/', 'fw'],
+                ['tensorflow', 'TensorFlow', 'https://www.tensorflow.org/', 'fw'],
+                ['pytorch', 'PyTorch', 'https://pytorch.org/', 'fw'],
+                ['sklearn', 'scikit-learn', 'https://scikit-learn.org/', 'fw'],
+                ['opencv', 'OpenCV', 'https://opencv.org/', 'fw'],
+                ['mongodb', 'MongoDB', 'https://www.mongodb.com/', 'db'],
+                ['mysql', 'MySQL', 'https://www.mysql.com/', 'db'],
+                ['postgres', 'PostgreSQL', 'https://www.postgresql.org/', 'db'],
+                ['sqlite', 'SQLite', 'https://www.sqlite.org/', 'db'],
+                ['redis', 'Redis', 'https://redis.io/', 'db'],
+                ['firebase', 'Firebase', 'https://firebase.google.com/', 'db'],
+                ['vercel', 'Vercel', 'https://vercel.com/', 'db'],
+                ['netlify', 'Netlify', 'https://www.netlify.com/', 'db'],
+                ['githubpages', 'GitHub Pages', 'https://pages.github.com/', 'db'],
+                ['git', 'Git', 'https://git-scm.com/', 'tool'],
+                ['github', 'GitHub', 'https://github.com/', 'tool'],
+                ['githubactions', 'GitHub Actions', 'https://github.com/features/actions', 'tool'],
+                ['vscode', 'VS Code', 'https://code.visualstudio.com/', 'tool'],
+                ['docker', 'Docker', 'https://www.docker.com/', 'tool'],
+                ['maven', 'Maven', 'https://maven.apache.org/', 'tool'],
+                ['gradle', 'Gradle', 'https://gradle.org/', 'tool'],
+              ];
+              const iconOf = (id) => (id === 'githubpages' ? 'github' : id);
+
+              const LANGS = {
+                C: 'c', 'C++': 'cpp', 'C#': 'cs', Java: 'java', JavaScript: 'js', TypeScript: 'ts', Python: 'py',
+                'Jupyter Notebook': 'py', HTML: 'html', CSS: 'css', SCSS: 'sass', Sass: 'sass', PHP: 'php', Go: 'go',
+                Rust: 'rust', Kotlin: 'kotlin', Swift: 'swift', Dart: 'dart', Ruby: 'ruby', Shell: 'bash',
+                PowerShell: 'powershell', R: 'r', Dockerfile: 'docker', Vue: 'vue', Svelte: 'svelte',
+              };
+              const PKGS = {
+                react: 'react', 'react-dom': 'react', next: 'nextjs', vue: 'vue', '@angular/core': 'angular', svelte: 'svelte',
+                express: 'express', '@nestjs/core': 'nestjs', tailwindcss: 'tailwind', bootstrap: 'bootstrap', vite: 'vite',
+                webpack: 'webpack', jquery: 'jquery', three: 'threejs', redux: 'redux', '@reduxjs/toolkit': 'redux',
+                electron: 'electron', prisma: 'prisma', '@prisma/client': 'prisma', graphql: 'graphql',
+                mongoose: 'mongodb', mongodb: 'mongodb', mysql: 'mysql', mysql2: 'mysql', pg: 'postgres',
+                sqlite3: 'sqlite', 'better-sqlite3': 'sqlite', redis: 'redis', firebase: 'firebase', 'firebase-admin': 'firebase',
+                sass: 'sass', flask: 'flask', django: 'django', fastapi: 'fastapi', tensorflow: 'tensorflow',
+                torch: 'pytorch', pytorch: 'pytorch', 'scikit-learn': 'sklearn', sklearn: 'sklearn',
+                'opencv-python': 'opencv', 'opencv-python-headless': 'opencv',
+              };
+
+              async function readFile(owner, repo, path, ref) {
+                const { data } = await github.rest.repos.getContent({ owner, repo, path, ref });
+                return Buffer.from(data.content, 'base64').toString('utf8');
+              }
+
+              // Returns a list of tool ids for one repository, or null if it could not be scanned.
+              async function scanRepo(owner, repo) {
+                const found = new Set();
+                let info;
+                try {
+                  info = (await github.rest.repos.get({ owner, repo })).data;
+                } catch (e) { return null; }
+                if (info.has_pages) found.add('githubpages');
+
+                try {
+                  const { data } = await github.rest.repos.listLanguages({ owner, repo });
+                  for (const name of Object.keys(data)) if (LANGS[name]) found.add(LANGS[name]);
+                } catch (e) { /* ignore */ }
+
+                const manifests = [];
+                try {
+                  const { data } = await github.rest.git.getTree({ owner, repo, tree_sha: info.default_branch, recursive: 'true' });
+                  for (const node of data.tree) {
+                    if (node.type !== 'blob') continue;
+                    const path = node.path;
+                    if (/(^|\/)(node_modules|vendor|dist|build)\//.test(path)) continue;
+                    const base = path.split('/').pop();
+                    if (base === 'package.json') { found.add('nodejs'); manifests.push(['npm', path]); }
+                    else if (base === 'requirements.txt') manifests.push(['pip', path]);
+                    else if (base === 'pom.xml') { found.add('maven'); manifests.push(['maven', path]); }
+                    else if (/^build\.gradle(\.kts)?$|^settings\.gradle(\.kts)?$/.test(base)) found.add('gradle');
+                    else if (base === 'Dockerfile' || /^docker-compose/.test(base)) found.add('docker');
+                    else if (base === 'vercel.json') found.add('vercel');
+                    else if (base === 'netlify.toml') found.add('netlify');
+                    else if (base === 'firebase.json') found.add('firebase');
+                    else if (/^tailwind\.config\./.test(base)) found.add('tailwind');
+                    else if (/^vite\.config\./.test(base)) found.add('vite');
+                    else if (/^next\.config\./.test(base)) found.add('nextjs');
+                    else if (/^webpack\.config\./.test(base)) found.add('webpack');
+                    if (path.startsWith('.github/workflows/')) found.add('githubactions');
+                    if (path.startsWith('.vscode/')) found.add('vscode');
+                  }
+                } catch (e) { /* ignore */ }
+
+                for (const [kind, path] of manifests.slice(0, 6)) {
+                  try {
+                    const text = await readFile(owner, repo, path, info.default_branch);
+                    if (kind === 'npm') {
+                      const pkg = JSON.parse(text);
+                      for (const n of Object.keys({ ...(pkg.dependencies || {}), ...(pkg.devDependencies || {}) }))
+                        if (PKGS[n.toLowerCase()]) found.add(PKGS[n.toLowerCase()]);
+                    } else if (kind === 'pip') {
+                      for (const line of text.split(/\r?\n/)) {
+                        const n = line.trim().split(/[<>=!~\[; ]/)[0].toLowerCase();
+                        if (n && PKGS[n]) found.add(PKGS[n]);
+                      }
+                    } else if (kind === 'maven') {
+                      if (/springframework/i.test(text)) found.add('spring');
+                    }
+                  } catch (e) { /* ignore */ }
+                }
+                return [...found];
+              }
+
+              const repoRes = await github.graphql(
+                `query($login: String!) {
+                  user(login: $login) {
+                    repositories(ownerAffiliations: OWNER, first: 100, orderBy: { field: PUSHED_AT, direction: DESC }) {
+                      nodes { name isFork pushedAt owner { login } }
+                    }
+                    repositoriesContributedTo(first: 50, includeUserRepositories: false, contributionTypes: [COMMIT, PULL_REQUEST], orderBy: { field: PUSHED_AT, direction: DESC }) {
+                      nodes { name isFork pushedAt owner { login } }
+                    }
+                  }
+                }`,
+                { login: user }
+              );
+              const seen = new Set();
+              const list = [];
+              const addRepos = (nodes, owned) => {
+                for (const r of nodes) {
+                  if (!r) continue;
+                  if (owned && r.isFork && !INCLUDE_FORKS) continue;
+                  const key = `${r.owner.login}/${r.name}`;
+                  if (seen.has(key)) continue;
+                  seen.add(key);
+                  list.push({ key, owner: r.owner.login, name: r.name, pushedAt: r.pushedAt });
+                }
+              };
+              addRepos(repoRes.user.repositories.nodes, true);
+              addRepos(repoRes.user.repositoriesContributedTo.nodes, false);
+
+              fs.mkdirSync('assets', { recursive: true });
+              const cachePath = 'assets/tools-cache.json';
+              let cache = {};
+              try {
+                const c = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+                if (c.version === CACHE_VERSION) cache = c.repos || {};
+              } catch (e) { /* first run */ }
+
+              const nextCache = {};
+              const used = new Set(ALWAYS);
+              for (const r of list.slice(0, 80)) {
+                let tools;
+                if (cache[r.key] && cache[r.key].pushedAt === r.pushedAt) {
+                  tools = cache[r.key].tools;
+                } else {
+                  const scanned = await scanRepo(r.owner, r.name);
+                  tools = scanned === null ? (cache[r.key] ? cache[r.key].tools : []) : scanned;
+                  if (scanned === null) { nextCache[r.key] = { pushedAt: null, tools }; tools.forEach((t) => used.add(t)); continue; }
+                }
+                nextCache[r.key] = { pushedAt: r.pushedAt, tools };
+                tools.forEach((t) => used.add(t));
+              }
+
+              const CATS = [
+                ['lang', '👨‍💻', 'Programming and Markup Languages'],
+                ['fw', '🧰', 'Frameworks and Libraries'],
+                ['db', '🗄️', 'Databases and Hosting'],
+                ['tool', '💻', 'Software and Tools'],
+              ];
+              const blocks = [];
+              const json = [];
+              for (const [cat, emoji, title] of CATS) {
+                const chosen = TOOLS.filter((t) => t[3] === cat && used.has(t[0]));
+                if (!chosen.length) continue;
+                const imgs = chosen.map(([id, label, url]) =>
+                  `  <a href="${url}" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=${iconOf(id)}&theme=dark" width="36" height="36" alt="${label}" title="${label}" /></a>`
+                ).join('\n');
+                blocks.push(`### ${emoji} ${title}\n\n<p>\n${imgs}\n</p>`);
+                json.push({ title: `${emoji} ${title}`, tools: chosen.map(([id, label, url]) => ({ id: iconOf(id), label, url })) });
+              }
+              if (blocks.length) replaceSection('tools', blocks.join('\n\n'));
+              fs.writeFileSync('assets/tools.json', JSON.stringify(json, null, 2));
+              fs.writeFileSync(cachePath, JSON.stringify({ version: CACHE_VERSION, repos: nextCache }, null, 2));
+              core.info(`Tools detected from ${list.length} repositories: ${[...used].join(', ')}`);
+            } catch (err) {
+              core.warning(`Could not detect tools: ${err.message}`);
             }
 
             fs.writeFileSync(file, md);
