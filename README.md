@@ -34,11 +34,11 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 ## 🚀 Featured Projects
 
 <!--START_SECTION:projects-->
-### 📌 [HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype)
+### 📌 [HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype)
 
 HealthGuard — Smarter Health. Safer Lives.
 
-<sub>CSS · ⭐ 2</sub>
+<sub>CSS · Fork</sub>
 
 ### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
 
@@ -99,11 +99,12 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
-3. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Oct 11
-4. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
-5. 🍴 Forked [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Sep 15
+1. 🔀 Opened PR [#1](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Oct 12
+2. ❗ Closed issue [#1](https://github.com/KinjalPramanik06/DSA-C-Program/issues/1) in [KinjalPramanik06/DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program) · Oct 12
+3. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 10
+4. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Oct 11
+5. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Oct 11
+6. ⭐ Starred [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Sep 15
 <!--END_SECTION:activity-->
 
 
