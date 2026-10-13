@@ -1,8 +1,18 @@
 {
   "version": 2,
   "repos": {
+    "KinjalPramanik06/Periodic-Table": {
+      "pushedAt": "2026-10-13T10:19:11Z",
+      "tools": []
+    },
+    "KinjalPramanik06/DSA-C-Program": {
+      "pushedAt": "2026-10-13T10:06:35Z",
+      "tools": [
+        "c"
+      ]
+    },
     "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-10-12T22:11:32Z",
+      "pushedAt": "2026-10-13T03:03:16Z",
       "tools": [
         "vercel",
         "html",
@@ -22,12 +32,6 @@
         "express",
         "mongodb",
         "react"
-      ]
-    },
-    "KinjalPramanik06/DSA-C-Program": {
-      "pushedAt": "2026-10-11T10:26:52Z",
-      "tools": [
-        "c"
       ]
     },
     "KinjalPramanik06/Health": {
