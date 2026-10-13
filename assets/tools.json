@@ -33,6 +33,11 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
       {
+        "id": "bash",
+        "label": "Shell",
+        "url": "https://www.gnu.org/software/bash/"
+      },
+      {
         "id": "md",
         "label": "Markdown",
         "url": "https://www.markdownguide.org/"
@@ -56,6 +61,11 @@
         "id": "express",
         "label": "Express",
         "url": "https://expressjs.com/"
+      },
+      {
+        "id": "tailwind",
+        "label": "Tailwind CSS",
+        "url": "https://tailwindcss.com/"
       },
       {
         "id": "vite",

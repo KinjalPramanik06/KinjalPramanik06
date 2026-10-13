@@ -120,6 +120,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="36" height="36" alt="Python" title="Python" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="36" height="36" alt="HTML" title="HTML" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="36" height="36" alt="CSS" title="CSS" /></a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=bash&theme=dark" width="36" height="36" alt="Shell" title="Shell" /></a>
   <a href="https://www.markdownguide.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=md&theme=dark" width="36" height="36" alt="Markdown" title="Markdown" /></a>
 </p>
 
@@ -129,6 +130,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
   <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="36" height="36" alt="Node.js" title="Node.js" /></a>
   <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="36" height="36" alt="React" title="React" /></a>
   <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express&theme=dark" width="36" height="36" alt="Express" title="Express" /></a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="36" height="36" alt="Tailwind CSS" title="Tailwind CSS" /></a>
   <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="36" height="36" alt="Vite" title="Vite" /></a>
 </p>
 
