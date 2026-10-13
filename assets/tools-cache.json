@@ -1,6 +1,14 @@
 {
   "version": 2,
   "repos": {
+    "KinjalPramanik06/KinjalPramanik06": {
+      "pushedAt": "2026-10-13T12:14:45Z",
+      "tools": [
+        "vercel",
+        "html",
+        "githubactions"
+      ]
+    },
     "KinjalPramanik06/Periodic-Table": {
       "pushedAt": "2026-10-13T12:14:04Z",
       "tools": [
@@ -14,14 +22,6 @@
         "express",
         "react",
         "tailwind"
-      ]
-    },
-    "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-10-13T12:10:33Z",
-      "tools": [
-        "vercel",
-        "html",
-        "githubactions"
       ]
     },
     "KinjalPramanik06/DSA-C-Program": {
