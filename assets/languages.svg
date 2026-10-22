@@ -3,11 +3,11 @@
 <rect width="360" height="195" rx="4.5" fill="#0D1117"/>
 <text class="title" x="24" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="24" y="56" width="312" height="8" rx="4"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="257.44" height="8" fill="#f1e05a"/><rect x="281.44" y="56" width="40.53" height="8" fill="#3178c6"/><rect x="321.98" y="56" width="7.03" height="8" fill="#663399"/><rect x="329.00" y="56" width="5.05" height="8" fill="#e34c26"/><rect x="334.05" y="56" width="2.00" height="8" fill="#555555"/><rect x="336.05" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
-<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.51%</text>
+<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="257.33" height="8" fill="#f1e05a"/><rect x="281.33" y="56" width="40.52" height="8" fill="#3178c6"/><rect x="321.84" y="56" width="7.02" height="8" fill="#663399"/><rect x="328.87" y="56" width="5.05" height="8" fill="#e34c26"/><rect x="333.92" y="56" width="2.07" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
+<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.48%</text>
 <circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 12.99%</text>
 <circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.25%</text>
 <circle cx="195" cy="114" r="5" fill="#e34c26"/><text class="lg" x="206" y="118">HTML 1.62%</text>
-<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 0.62%</text>
+<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 0.66%</text>
 <circle cx="195" cy="140" r="5" fill="#C1F12E"/><text class="lg" x="206" y="144">Batchfile 0.00%</text>
 </svg>
