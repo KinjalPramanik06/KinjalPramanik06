@@ -3,11 +3,11 @@
 <rect width="360" height="195" rx="4.5" fill="#0D1117"/>
 <text class="title" x="24" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="24" y="56" width="312" height="8" rx="4"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="256.77" height="8" fill="#f1e05a"/><rect x="280.77" y="56" width="40.43" height="8" fill="#3178c6"/><rect x="321.20" y="56" width="7.01" height="8" fill="#663399"/><rect x="328.21" y="56" width="5.04" height="8" fill="#e34c26"/><rect x="333.24" y="56" width="2.74" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
-<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.30%</text>
-<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 12.96%</text>
-<circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.25%</text>
+<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="256.60" height="8" fill="#f1e05a"/><rect x="280.60" y="56" width="40.40" height="8" fill="#3178c6"/><rect x="321.01" y="56" width="7.00" height="8" fill="#663399"/><rect x="328.01" y="56" width="5.03" height="8" fill="#e34c26"/><rect x="333.04" y="56" width="2.94" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
+<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.24%</text>
+<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 12.95%</text>
+<circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.24%</text>
 <circle cx="195" cy="114" r="5" fill="#e34c26"/><text class="lg" x="206" y="118">HTML 1.61%</text>
-<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 0.88%</text>
+<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 0.94%</text>
 <circle cx="195" cy="140" r="5" fill="#C1F12E"/><text class="lg" x="206" y="144">Batchfile 0.00%</text>
 </svg>
