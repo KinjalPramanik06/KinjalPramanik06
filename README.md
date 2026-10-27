@@ -40,11 +40,11 @@ HealthGuard — Smarter Health. Safer Lives.
 
 <sub>CSS · Fork</sub>
 
-### 📌 [C_Program](https://github.com/KinjalPramanik06/C_Program)
+### 📌 [DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program)
 
-All basic C Programming I have done during my college.
+Data Structures and Algorithms in C
 
-<sub>⭐ 1</sub>
+<sub>C</sub>
 <!--END_SECTION:projects-->
 
 ---

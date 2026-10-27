@@ -8,11 +8,11 @@
     "fork": true
   },
   {
-    "name": "C_Program",
-    "url": "https://github.com/KinjalPramanik06/C_Program",
-    "description": "All basic C Programming I have done during my college.",
-    "language": "",
-    "stars": 1,
+    "name": "DSA-C-Program",
+    "url": "https://github.com/KinjalPramanik06/DSA-C-Program",
+    "description": "Data Structures and Algorithms in C",
+    "language": "C",
+    "stars": 0,
     "fork": false
   }
 ]
