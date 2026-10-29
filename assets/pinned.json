@@ -6,13 +6,5 @@
     "language": "CSS",
     "stars": 0,
     "fork": true
-  },
-  {
-    "name": "DSA-C-Program",
-    "url": "https://github.com/KinjalPramanik06/DSA-C-Program",
-    "description": "Data Structures and Algorithms in C",
-    "language": "C",
-    "stars": 0,
-    "fork": false
   }
 ]

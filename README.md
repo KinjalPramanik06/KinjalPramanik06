@@ -39,12 +39,6 @@ I'm a Computer Science student who learns by shipping. I like breaking things do
 HealthGuard — Smarter Health. Safer Lives.
 
 <sub>CSS · Fork</sub>
-
-### 📌 [DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program)
-
-Data Structures and Algorithms in C
-
-<sub>C</sub>
 <!--END_SECTION:projects-->
 
 ---
