@@ -8,7 +8,7 @@
 
 ## 👋 Hey, I'm Kinjal
 
-I'm a Computer Science student who learns by shipping. I like breaking things down, understanding how they really work, and then building something useful on top.
+I'm a Computer Science student who learns by creating. I like breaking things down, understanding how they really work, and then building something useful on top.
 
 - 🎓 **Studying:** Computer Science Engineering
 - 🧠 **Sharpening:** data structures, algorithms, problem solving
