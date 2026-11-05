@@ -8,12 +8,46 @@
 
 ## 👋 Hey, I'm Kinjal
 
-I'm a Computer Science student who learns by creating. I like breaking things down, understanding how they really work, and then building something useful on top.
+<div align="center">
 
-- 🎓 **Studying:** Computer Science Engineering
-- 🧠 **Sharpening:** data structures, algorithms, problem solving
-- 🛠️ **Building:** practical projects, one iteration at a time
-- 🌱 **Exploring:** Java, OOP, web development, AI/ML
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=620&lines=Computer+Science+Engineering+Student;I+learn+by+creating;Breaking+things+down.+Building+things+up." alt="Typing intro"/>
+
+</div>
+
+<p align="center">
+  <i>I like understanding how things really work, then building something useful on top.</i>
+</p>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🎓 Studying
+Computer Science Engineering
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 Sharpening
+Data structures, algorithms & problem solving
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛠️ Building
+Practical projects, one iteration at a time
+
+</td>
+<td width="50%" valign="top">
+
+### 🌱 Exploring
+Java, OOP, web development & AI/ML
+
+</td>
+</tr>
+</table>
 
 ## ⚡ Tech Stack
 
