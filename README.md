@@ -2,7 +2,7 @@
 
   <img src="assets/header.svg" width="100%" alt="Kinjal Pramanik. Ideas → Algorithms → Impact. Turning curiosity into code, and code into possibilities. DSA, Web Dev, AI / ML." />
 
-  <img src="assets/coding-room.svg" width="100%" alt="Animated pixel-art coding room at night with softly fading edges." />
+  <img src="assets/coding-room.svg" width="560" alt="Animated coding room with softly fading edges." />
 
 </div>
 
