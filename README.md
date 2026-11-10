@@ -35,9 +35,10 @@
 > 🛠️ **Workshop** · Practical projects, experiments & small improvements  
 > 🌌 **Next frontier** · Java, OOP, web development & AI/ML
 
-<p align="center">
-  <sub>🔍 Explore &nbsp; → &nbsp; 🧩 Understand &nbsp; → &nbsp; ⚙️ Build &nbsp; → &nbsp; 🌱 Improve</sub>
-</p>
+<h3 align="center">
+  🔍 Explore &nbsp; → &nbsp; 🧩 Understand &nbsp; → &nbsp; ⚙️ Build &nbsp; → &nbsp; 🌱 Improve
+</h3>
+
 ## ⚡ Tech Stack
 
 <!-- TECH-STACK-START -->
