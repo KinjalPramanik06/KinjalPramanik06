@@ -6,49 +6,38 @@
 
 ---
 
-## 👋 Hey, I'm Kinjal
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=620&lines=Computer+Science+Engineering+Student;I+learn+by+creating;Breaking+things+down.+Building+things+up." alt="Typing intro"/>
+  <h3>🛰️ Welcome to my little corner of the code universe.</h3>
+
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=1100&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=60&amp;lines=Curiosity+is+my+source+code.;Learning.+Building.+Iterating.;One+idea.+One+commit.+One+step+closer."
+    width="600"
+    alt="Curiosity is my source code. Learning, building, iterating."
+  />
+
+  <p>
+    🎓 <b>Computer Science Engineering student</b><br>
+    Turning <i>“what if?”</i> into <i>“it works!”</i> — one project at a time.
+  </p>
+
+  <img
+    src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"
+    width="260"
+    alt="Animated coding illustration"
+  />
 
 </div>
 
+### 🧭 My current coordinates
+
+> 🧠 **Training ground** · Data structures, algorithms & problem solving  
+> 🛠️ **Workshop** · Practical projects, experiments & small improvements  
+> 🌌 **Next frontier** · Java, OOP, web development & AI/ML
+
 <p align="center">
-  <i>I like understanding how things really work, then building something useful on top.</i>
+  <sub>🔍 Explore &nbsp; → &nbsp; 🧩 Understand &nbsp; → &nbsp; ⚙️ Build &nbsp; → &nbsp; 🌱 Improve</sub>
 </p>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### 🎓 Studying
-Computer Science Engineering
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 Sharpening
-Data structures, algorithms & problem solving
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛠️ Building
-Practical projects, one iteration at a time
-
-</td>
-<td width="50%" valign="top">
-
-### 🌱 Exploring
-Java, OOP, web development & AI/ML
-
-</td>
-</tr>
-</table>
-
 ## ⚡ Tech Stack
 
 <!-- TECH-STACK-START -->
