@@ -1,31 +1,8 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Kinjal Pramanik, The Tech Innovator. Ideas → Algorithms → Impact" width="100%"/>
+  <img src="assets/header.svg" width="100%" alt="Kinjal Pramanik. Ideas → Algorithms → Impact. Turning curiosity into code, and code into possibilities. DSA, Web Dev, AI / ML." />
 
-</div>
-
----
-
-<div align="center">
-
-  <h3>🛰️ Welcome to my little corner of the code universe.</h3>
-
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=1100&amp;color=8B5CF6&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=60&amp;lines=Curiosity+is+my+source+code.;Learning.+Building.+Iterating.;One+idea.+One+commit.+One+step+closer."
-    width="600"
-    alt="Curiosity is my source code. Learning, building, iterating."
-  />
-
-  <p>
-    🎓 <b>Computer Science Engineering student</b><br>
-    Turning <i>“what if?”</i> into <i>“it works!”</i> — one project at a time.
-  </p>
-
-  <img
-    src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"
-    width="260"
-    alt="Animated coding illustration"
-  />
+  <img src="assets/coding-room.svg" width="100%" alt="Animated pixel-art coding room at night with softly fading edges." />
 
 </div>
 
