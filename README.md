@@ -10,8 +10,6 @@
 
 ## 👋 Hey, I'm Kinjal
 
-<div align="center">
-
 > 🧠 **Training ground** · Data structures, algorithms & problem solving  
 > 🛠️ **Workshop** · Practical projects, experiments & small improvements  
 > 🌌 **Exploring ** · Java, OOP, web development & AI/ML
