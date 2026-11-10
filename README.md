@@ -6,11 +6,15 @@
 
 </div>
 
-### 🧭 My current coordinates
+---
+
+## 👋 Hey, I'm Kinjal
+
+<div align="center">
 
 > 🧠 **Training ground** · Data structures, algorithms & problem solving  
 > 🛠️ **Workshop** · Practical projects, experiments & small improvements  
-> 🌌 **Next frontier** · Java, OOP, web development & AI/ML
+> 🌌 **Exploring ** · Java, OOP, web development & AI/ML
 
 <h3 align="center">
   🔍 Explore &nbsp; → &nbsp; 🧩 Understand &nbsp; → &nbsp; ⚙️ Build &nbsp; → &nbsp; 🌱 Improve
