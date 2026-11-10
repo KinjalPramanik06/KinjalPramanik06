@@ -3,9 +3,9 @@
 <rect width="360" height="195" rx="4.5" fill="#0D1117"/>
 <text class="title" x="24" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="24" y="56" width="312" height="8" rx="4"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="256.32" height="8" fill="#f1e05a"/><rect x="280.32" y="56" width="38.87" height="8" fill="#3178c6"/><rect x="319.19" y="56" width="8.42" height="8" fill="#663399"/><rect x="327.60" y="56" width="4.96" height="8" fill="#e34c26"/><rect x="332.56" y="56" width="3.42" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
-<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.15%</text>
-<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 12.46%</text>
+<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="256.43" height="8" fill="#f1e05a"/><rect x="280.43" y="56" width="38.75" height="8" fill="#3178c6"/><rect x="319.18" y="56" width="8.42" height="8" fill="#663399"/><rect x="327.60" y="56" width="4.96" height="8" fill="#e34c26"/><rect x="332.56" y="56" width="3.43" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
+<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.19%</text>
+<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 12.42%</text>
 <circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.70%</text>
 <circle cx="195" cy="114" r="5" fill="#e34c26"/><text class="lg" x="206" y="118">HTML 1.59%</text>
 <circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 1.10%</text>
