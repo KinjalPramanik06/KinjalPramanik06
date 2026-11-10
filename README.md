@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/header.svg" width="100%" alt="Kinjal Pramanik. Ideas → Algorithms → Impact. Turning curiosity into code, and code into possibilities. DSA, Web Dev, AI / ML." />
+  <img src="assets/header-transparent.svg" width="100%" alt="Kinjal Pramanik. Ideas → Algorithms → Impact. Turning curiosity into code, and code into possibilities. DSA, Web Dev, AI / ML." />
 
   <img src="assets/coding-room.svg" width="560" alt="Animated coding room with softly fading edges." />
 
