@@ -92,12 +92,12 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 13
-2. ⬆️ Pushed changes to [KinjalPramanik06/DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program) · Nov 12
-3. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 10
-4. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 10
-5. ⬆️ Pushed changes to [KinjalPramanik06/DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program) · Nov 5
-6. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 5
+1. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 16
+2. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 13
+3. ⬆️ Pushed changes to [KinjalPramanik06/DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program) · Nov 12
+4. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 10
+5. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 10
+6. ⬆️ Pushed changes to [KinjalPramanik06/DSA-C-Program](https://github.com/KinjalPramanik06/DSA-C-Program) · Nov 5
 <!--END_SECTION:activity-->
 
 
