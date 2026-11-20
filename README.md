@@ -33,6 +33,12 @@
 ## 🚀 Featured Projects
 
 <!--START_SECTION:projects-->
+### 📌 [StudentOS](https://github.com/KinjalPramanik06/StudentOS)
+
+No description yet.
+
+<sub>TypeScript</sub>
+
 ### 📌 [HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype)
 
 HealthGuard — Smarter Health. Safer Lives.
@@ -131,6 +137,7 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 <p>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="36" height="36" alt="MongoDB" title="MongoDB" /></a>
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="36" height="36" alt="Firebase" title="Firebase" /></a>
   <a href="https://vercel.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="36" height="36" alt="Vercel" title="Vercel" /></a>
   <a href="https://pages.github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github&theme=dark" width="36" height="36" alt="GitHub Pages" title="GitHub Pages" /></a>
 </p>

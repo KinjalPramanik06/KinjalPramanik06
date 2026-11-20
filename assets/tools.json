@@ -83,6 +83,11 @@
         "url": "https://www.mongodb.com/"
       },
       {
+        "id": "firebase",
+        "label": "Firebase",
+        "url": "https://firebase.google.com/"
+      },
+      {
         "id": "vercel",
         "label": "Vercel",
         "url": "https://vercel.com/"

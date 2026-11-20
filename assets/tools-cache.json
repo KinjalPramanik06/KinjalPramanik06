@@ -1,8 +1,24 @@
 {
   "version": 2,
   "repos": {
+    "KinjalPramanik06/StudentOS": {
+      "pushedAt": "2026-11-20T18:22:14Z",
+      "tools": [
+        "ts",
+        "js",
+        "css",
+        "html",
+        "githubactions",
+        "firebase",
+        "nodejs",
+        "vite",
+        "mongodb",
+        "react",
+        "tailwind"
+      ]
+    },
     "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-11-20T07:59:45Z",
+      "pushedAt": "2026-11-20T16:54:18Z",
       "tools": [
         "vercel",
         "html",

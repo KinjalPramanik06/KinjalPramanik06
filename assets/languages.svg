@@ -3,11 +3,11 @@
 <rect width="360" height="195" rx="4.5" fill="#0D1117"/>
 <text class="title" x="24" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="24" y="56" width="312" height="8" rx="4"/></clipPath>
-<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="258.65" height="8" fill="#f1e05a"/><rect x="282.65" y="56" width="36.35" height="8" fill="#3178c6"/><rect x="319.00" y="56" width="8.30" height="8" fill="#663399"/><rect x="327.30" y="56" width="5.00" height="8" fill="#e34c26"/><rect x="332.31" y="56" width="3.68" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
-<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 82.90%</text>
-<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 11.65%</text>
-<circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.66%</text>
-<circle cx="195" cy="114" r="5" fill="#e34c26"/><text class="lg" x="206" y="118">HTML 1.60%</text>
-<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 1.18%</text>
+<g clip-path="url(#bar)"><rect x="24" y="56" width="312" height="8" fill="#30363D"/><rect x="24.00" y="56" width="195.43" height="8" fill="#f1e05a"/><rect x="219.43" y="56" width="103.15" height="8" fill="#3178c6"/><rect x="322.59" y="56" width="6.86" height="8" fill="#663399"/><rect x="329.45" y="56" width="3.85" height="8" fill="#e34c26"/><rect x="333.30" y="56" width="2.69" height="8" fill="#555555"/><rect x="335.99" y="56" width="2.00" height="8" fill="#C1F12E"/></g>
+<circle cx="29" cy="88" r="5" fill="#f1e05a"/><text class="lg" x="40" y="92">JavaScript 62.64%</text>
+<circle cx="195" cy="88" r="5" fill="#3178c6"/><text class="lg" x="206" y="92">TypeScript 33.06%</text>
+<circle cx="29" cy="114" r="5" fill="#663399"/><text class="lg" x="40" y="118">CSS 2.20%</text>
+<circle cx="195" cy="114" r="5" fill="#e34c26"/><text class="lg" x="206" y="118">HTML 1.23%</text>
+<circle cx="29" cy="140" r="5" fill="#555555"/><text class="lg" x="40" y="144">C 0.86%</text>
 <circle cx="195" cy="140" r="5" fill="#C1F12E"/><text class="lg" x="206" y="144">Batchfile 0.00%</text>
 </svg>
