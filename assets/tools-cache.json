@@ -2,7 +2,7 @@
   "version": 2,
   "repos": {
     "KinjalPramanik06/StudentOS": {
-      "pushedAt": "2026-11-20T18:22:14Z",
+      "pushedAt": "2026-11-20T19:40:58Z",
       "tools": [
         "ts",
         "js",
@@ -17,22 +17,8 @@
         "tailwind"
       ]
     },
-    "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-11-20T16:54:18Z",
-      "tools": [
-        "vercel",
-        "html",
-        "githubactions"
-      ]
-    },
-    "KinjalPramanik06/DSA-C-Program": {
-      "pushedAt": "2026-11-18T16:16:48Z",
-      "tools": [
-        "c"
-      ]
-    },
     "KinjalPramanik06/Periodic-Table": {
-      "pushedAt": "2026-11-17T16:08:21Z",
+      "pushedAt": "2026-11-20T19:20:43Z",
       "tools": [
         "vercel",
         "ts",
@@ -45,6 +31,20 @@
         "express",
         "react",
         "tailwind"
+      ]
+    },
+    "KinjalPramanik06/KinjalPramanik06": {
+      "pushedAt": "2026-11-20T18:35:17Z",
+      "tools": [
+        "vercel",
+        "html",
+        "githubactions"
+      ]
+    },
+    "KinjalPramanik06/DSA-C-Program": {
+      "pushedAt": "2026-11-18T16:16:48Z",
+      "tools": [
+        "c"
       ]
     },
     "KinjalPramanik06/HealthGuard_Prototype": {

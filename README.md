@@ -35,7 +35,7 @@
 <!--START_SECTION:projects-->
 ### 📌 [StudentOS](https://github.com/KinjalPramanik06/StudentOS)
 
-No description yet.
+Your entire academic life, organized: attendance, timetable, marks, and analytics
 
 <sub>TypeScript</sub>
 
