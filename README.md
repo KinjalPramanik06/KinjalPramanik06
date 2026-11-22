@@ -12,7 +12,7 @@
 
 🧠 **Understand** : Data structures, algorithms & problem solving  
 🛠️ **Build** : Practical projects, experiments & small improvements  
-🔍 **Exploring** : Java, OOP, web development & AI/ML
+🔍 **Exploring** : OOP, web development & AI/ML
 
 ## ⚡ Tech Stack
 
