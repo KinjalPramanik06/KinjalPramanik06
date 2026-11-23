@@ -98,9 +98,9 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 21
-2. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 22
-3. ⬆️ Pushed changes to [KinjalPramanik06/StudentOS](https://github.com/KinjalPramanik06/StudentOS) · Nov 20
+1. ⬆️ Pushed changes to [KinjalPramanik06/StudentOS](https://github.com/KinjalPramanik06/StudentOS) · Nov 20
+2. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 21
+3. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 22
 4. 🔀 Merged PR [#2](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Nov 21
 5. 🔀 Opened PR [#2](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Nov 21
 6. ⬆️ Pushed changes to [KinjalPramanik06/Periodic-Table](https://github.com/KinjalPramanik06/Periodic-Table) · Nov 17
