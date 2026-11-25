@@ -1,16 +1,24 @@
 {
   "version": 2,
   "repos": {
-    "KinjalPramanik06/KinjalPramanik06": {
-      "pushedAt": "2026-11-24T23:52:57Z",
+    "KinjalPramanik06/StudentOS": {
+      "pushedAt": "2026-11-25T13:56:56Z",
       "tools": [
-        "vercel",
+        "ts",
+        "js",
+        "css",
         "html",
-        "githubactions"
+        "githubactions",
+        "firebase",
+        "nodejs",
+        "vite",
+        "mongodb",
+        "react",
+        "tailwind"
       ]
     },
     "KinjalPramanik06/HealthGuard_Prototype": {
-      "pushedAt": "2026-11-21T16:51:11Z",
+      "pushedAt": "2026-11-25T13:55:44Z",
       "tools": [
         "css",
         "ts",
@@ -24,20 +32,12 @@
         "react"
       ]
     },
-    "KinjalPramanik06/StudentOS": {
-      "pushedAt": "2026-11-20T19:40:58Z",
+    "KinjalPramanik06/KinjalPramanik06": {
+      "pushedAt": "2026-11-25T06:43:31Z",
       "tools": [
-        "ts",
-        "js",
-        "css",
+        "vercel",
         "html",
-        "githubactions",
-        "firebase",
-        "nodejs",
-        "vite",
-        "mongodb",
-        "react",
-        "tailwind"
+        "githubactions"
       ]
     },
     "KinjalPramanik06/Periodic-Table": {
