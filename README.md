@@ -98,12 +98,12 @@ I'm building strong fundamentals in programming and problem solving, while explo
 ## ⚡ Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 25
-2. ⬆️ Pushed changes to [KinjalPramanik06/StudentOS](https://github.com/KinjalPramanik06/StudentOS) · Nov 20
-3. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 21
-4. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 22
-5. 🔀 Merged PR [#2](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Nov 21
-6. 🔀 Opened PR [#2](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Nov 21
+1. ⬆️ Pushed changes to [KinjalPramanik06/StudentOS](https://github.com/KinjalPramanik06/StudentOS) · Nov 25
+2. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 25
+3. ⬆️ Pushed changes to [KinjalPramanik06/StudentOS](https://github.com/KinjalPramanik06/StudentOS) · Nov 20
+4. ⬆️ Pushed changes to [KinjalPramanik06/HealthGuard_Prototype](https://github.com/KinjalPramanik06/HealthGuard_Prototype) · Nov 21
+5. ⬆️ Pushed changes to [KinjalPramanik06/KinjalPramanik06](https://github.com/KinjalPramanik06/KinjalPramanik06) · Nov 22
+6. 🔀 Merged PR [#2](undefined) in [SoulSociety-4/HealthGuard_Prototype](https://github.com/SoulSociety-4/HealthGuard_Prototype) · Nov 21
 <!--END_SECTION:activity-->
 
 
