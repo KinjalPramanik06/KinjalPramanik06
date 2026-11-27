@@ -167,6 +167,6 @@ I'm building strong fundamentals in programming and problem solving, while explo
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:6366f1,100:06b6d4&height=90&section=footer" width="100%" alt="Footer"/>
 
-*Keep learning. Keep building*
+*Keep learning - Keep building*
 
 </div>
